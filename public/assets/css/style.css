@@ -8146,17 +8146,46 @@ body .search-modal .close:hover {
 }
 .rs-footer.style1 .footer-top .footer-social li a i {
   padding: 0 0px 0 0;
-  font-size: 15px;
+  font-size:21px;
   margin-right: 3px;
   transition: all .8s ease;
-  background: #1c2024;
+  background: #fff;
   width: 35px;
   height: 35px;
   line-height: 35px;
   border-radius: 0;
-  color: #fff;
+  color: #000;
   text-align: center;
 }
+.aff{
+  background-color: #3b5998 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.all{
+  background-color: #0077b5 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+.ayy{
+  background-color: #cd201f !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.att{
+  background-color: #55acee !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.aii{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
 .rs-footer.style1 .footer-top .footer-social li a i:hover {
   color: #ffffff;
   background: #2A6DB5;

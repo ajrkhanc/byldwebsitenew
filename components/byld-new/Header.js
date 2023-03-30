@@ -84,9 +84,9 @@ export default function Header() {
                                         <div className="main-menu">
                                             <nav className="rs-menu hidden-md">
                                                 <ul className="nav-menu">
-                                                    <li>
+                                                    {/* <li>
                                                         <a href="/">HOME</a>
-                                                    </li>
+                                                    </li> */}
                                                     <li className="menu-item-has-children">
                                                         <a href="#">OUR SOLUTIONS</a>
                                                         <ul className="sub-menu">
@@ -278,9 +278,9 @@ export default function Header() {
                             </a>
                         </div>
                         <ul className="nav-menu">
-                            <li>
+                            {/* <li>
                                 <a href="/">HOME</a>
-                            </li>
+                            </li> */}
                             <li className="menu-item-has-children">
                                 <a href="#">OUR SOLUTIONS</a>
                                 <ul className="sub-menu">

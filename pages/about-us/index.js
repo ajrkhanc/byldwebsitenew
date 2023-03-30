@@ -141,7 +141,7 @@ export default function Home() {
                     <div className='row'>
                         <div className='col-sm-7'>
                             <div class="breadcrumbs-inner">
-                                <span class="watermark ">About</span>
+                                <span class="watermark ">BYLD</span>
                                 <h1 class="page-title wow fadeInUp delay-0-2s animated animateUP">
                                     About Us
                                 </h1>
