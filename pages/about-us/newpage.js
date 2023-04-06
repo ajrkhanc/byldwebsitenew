@@ -92,8 +92,8 @@ export default function Home() {
 
 
             <Head>
-                <title>Our Leadership Team - BYLD Group</title>
-                <meta name="description" content="Meet Our Leadership Team Yogesh Sood CMD – BYLD Group Sandeep Budhiraja Co-Founder – BYLD Group Anand Dewan Group CEO – BYLD Group Nishit Sood Chief Flow Officer – BYLD Group Amar Vijay Tandur Chief Business Officer Ronald Soans Business Head – BYLD Group Meet Our Consulting Team Naveen Kumar Learning Division at DTCI Ranjeet… Continue reading Our Leadership Team" />
+                <title>Law Firm Website | BYLD Group</title>
+                <meta name="description" content="Law Firm Website" />
                 <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
                 <script
                     dangerouslySetInnerHTML={{
@@ -120,7 +120,7 @@ export default function Home() {
                 <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
             </Head>
 
-            <div class="rs-breadcrumbs leadershipbrud">
+            <div class="rs-breadcrumbs lawfirms">
                 <div class="container">
                     <div class="breadcrumb-container theme1 wow fadeInUp delay-0-2s animated animateUP">
                         <ul>
@@ -131,8 +131,8 @@ export default function Home() {
                                 <span class="separator">/</span>
                             </li>
                             <li>
-                                <a href="/our-leadership-team">
-                                    <span>Our Leadership Team</span>
+                                <a href="#">
+                                    <span>Law Firm Website</span>
                                 </a>
                             </li>
                         </ul>
@@ -141,12 +141,12 @@ export default function Home() {
                     <div className='row'>
                         <div className='col-sm-7'>
                             <div class="breadcrumbs-inner">
-                                <span class="watermark ">TEAM</span>
+                                <span class="watermark ">BYLD</span>
                                 <h1 class="page-title wow fadeInUp delay-0-2s animated animateUP">
-                                    Our Leadership Team
+                                    Get Your Certification Today
                                 </h1>
                                 <span class="sub-text wow fadeInUp delay-0-2s animated animateUP">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                                    People are the best source of solutions to their own problems and aspirations. Coach is there to help and accelerate the journey to destination or solution.
                                 </span>
                             </div>
                         </div>
@@ -157,12 +157,169 @@ export default function Home() {
 
 
 
+            <section className='solutionrow ptt-60 pbb-60'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center'>
+                            <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Model</h2>
+                        </div>
+                    </div>
+                    <div className='row zindx'>
+
+                        <div className='col-sm-12 zindx'>
+                            <div className='row align-items-center'>
+                                <div className='col-sm-6'>
+                                    <div className='wow fadeInUp delay-0-2s animated animateUP'>
+                                        <img src="/assets/img/new/model1.png" alt="images" />
+                                    </div>
+                                </div>
+                                <div className='col-sm-6'>
+                                    <p class="mb-0 pall pbb-20 wow fadeInUp delay-0-2s animated animateUP">
+                                        This coaching model is designed to help clients develop a clear understanding of their situation, set specific goals, measure progress, and take action towards success. This model is supported by Problem solving tools at various steps.
+                                    </p>
+                                    <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
+                                        <Link href="#"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
+                    </div>
+
+                </div>
+            </section>
+
+            <div className="rs-about style2 logosl ptt-50 pbb-50">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <div className="pb-50  text-center">
+                                <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Modules</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row mmssb'>
+                        <div className='col-sm-12'>
+                            <div className='text-center'>
+                                <div className='minnerb wow fadeInUp delay-0-2s animated animateUP'>
+                                    <h3>Time - 130 hrs</h3>
+                                    <h4> Max students - 12 </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='row mmssb2'>
+                        <div className='col-sm-6 zindexx'>
+                            <div className='moduleinner'>
+                                <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching Foundation  Module 1</h3>
+                                <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/frame.jpg" alt="images" />
+                            </div>
+                        </div>
+                        <div className='col-sm-6 zindexx    '>
+                            <div className='moduleinner'>
+                                <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching Foundation  Module 1</h3>
+                                <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/model1.png" alt="images" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <section className='aboutmap ptt-50 pbb-40'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center pbb-30'>
+                            <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP"><h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Emotional Intelligence Based Coaching</h2></h2>
+                        </div>
+                        <div className='clearfix'></div>
+
+                        <div className='col-sm-8'>
+                            <div>
+                                <table className='mtblc wow fadeInUp delay-0-2s animated animateUP'>
+                                    <tr>
+                                        <th className='texttrasc' width='10px'></th>
+                                        <th>Recognition</th>
+                                        <th>Regulation</th>
+                                    </tr>
+                                    <tr>
+                                        <td className='texttras'><p>Personal Competence</p></td>
+                                        <td>
+                                            <h3>Self-Awareness</h3>
+                                            <ul>
+                                                <li>Self-confidence</li>
+                                                <li>Awareness of your emotional  state</li>
+                                                <li>Recognizing how your behavior impacts othres</li>
+                                                <li>Paying attention to how others influence your emotional state</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <h3>Self-Management</h3>
+                                            <ul>
+                                                <li>Keeping disruptive emotions and impulses in check</li>
+                                                <li>Acting in congruence with your values</li>
+                                                <li>Handling change flexibly</li>
+                                                <li>Pursuing goals and opportunities despite obstacles and setbacks</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td className='texttras'><p>Social Competence</p></td>
+                                        <td>
+                                            <h3>Social Awareness</h3>
+                                            <ul>
+                                                <li>Picking up on the mood in the room</li>
+                                                <li>Caring what others are going through</li>
+                                                <li>Hearing what the other person is "really" saying</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <h3>Relationship Management</h3>
+                                            <ul>
+                                                <li>Getting along well with others</li>
+                                                <li>Handling conflict effenctively</li>
+                                                <li>Clearly expressing ideas/information</li>
+                                                <li>Using sensitivity to another persons feeling (empathy) to manage interactions successfully</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div className='col-sm-4'>
+                            <div className='helpm'>
+                                <h3>Helps in :</h3>
+                            </div>
+                            <div className='helpsb mbb-30 wow fadeInUp delay-0-2s animated animateUP'>
+                                <img src="/assets/img/new/lifec.png" alt="images" />
+                                <h4>Life Coaching</h4>
+                            </div>
+
+                            <div className='helpsb wow fadeInUp delay-0-2s animated animateUP'>
+                                <img src="/assets/img/new/relationshipc.png" alt="images" />
+                                <h4>Relationship Coaching</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
             <section id="rs-team" className='style2 solutionrow ptt-60 pbb-60 rsteam'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-2'></div>
-                        <div className='col-sm-8'>
-                            <h2 class="title pbb-100 mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP pbb-30">Meet Our Leadership Team</h2>
+                        <div className='col-sm-8 text-center'>
+                            <h2 class="title pbb-100 mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP pbb-30">Program Directors</h2>
                         </div>
                     </div>
                     <div className='row zindx'>
@@ -178,7 +335,7 @@ export default function Home() {
                                             <div className="name">
                                                 <a target="_blank" href="/yogesh-sood">Yogesh Sood</a>
                                             </div>
-                                            <span className="post">Chairman and Managing Director</span>
+                                            <span className="post">ACTP, MCC (ICF)</span>
                                         </div>
                                         <div>
                                             <ul className="social-icon">
@@ -200,7 +357,7 @@ export default function Home() {
                                             <div className="name">
                                                 <a href="#">Sandeep Budhiraja</a>
                                             </div>
-                                            <span className="post">Co-Founder and Executive Director, Chief People Officer - BYLD Group</span>
+                                            <span className="post">Certified Master Trainer – ICF Coaching Curriculum, PMC Global™ | Master Facilitator DTCI ViLT | Certified ICF ACC Coach</span>
                                         </div>
                                         <div>
                                             <ul className="social-icon">
@@ -213,48 +370,52 @@ export default function Home() {
                                     </div>
                                 </div>
 
+                            </div>
+                        </div>
+                    </div>
 
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className='solutionrow ptt-60 pbb-60'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center'>
+
+                        </div>
+                    </div>
+                    <div className='row zindx'>
+
+                        <div className='col-sm-12 zindx'>
+                            <div className='row align-items-center'>
                                 <div className='col-sm-6'>
-                                    <div className='innerteamc'>
-                                        <div className='teamimgc1'>
-                                            <a href="#"><img src="/assets/img/team/anand.jpg" alt="" /></a>
-                                        </div>
-                                        <div className="team-info">
-                                            <div className="name">
-                                                <a href="#">Anand Dewan</a>
-                                            </div>
-                                            <span className="post">Group CEO</span>
-                                        </div>
-                                        <div>
-                                            <ul className="social-icon">
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/anand-dewan-87528a129/"><i className="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div className='teampera'>
-                                            <p>Passionate about empowering others to live their purpose. I am passionate about creating a positive, trusting and learning...</p>
-                                        </div>
+                                    <div className='wow fadeInUp delay-0-2s animated animateUP'>
+                                        <img src="/assets/img/new/cc1.png" alt="images" />
                                     </div>
                                 </div>
-
                                 <div className='col-sm-6'>
-                                    <div className='innerteamc mtt-80'>
-                                        <div className='teamimgc1'>
-                                            <a href="#"><img src="/assets/img/team/nishit.jpg" alt="" /></a>
-                                        </div>
-                                        <div className="team-info">
-                                            <div className="name">
-                                                <a href="#">Nishit Sood</a>
-                                            </div>
-                                            <span className="post">Chief Flow Officer</span>
-                                        </div>
-                                        <div>
-                                            <ul className="social-icon">
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/nishitsood/"><i className="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div className='teampera'>
-                                            <p>ENTREPRENEURIAL JOURNEY:- Currently running a pan India business services and IT company.</p>
-                                        </div>
+                                    <div className='pll-20'>
+                                    <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Program Details</h2>
+                                    <ul className='programul ptt-20'>
+                                        <li>Program Starts : (May onwards)</li>
+                                        <li>Language : English</li>
+                                        <li>Delivery Method: Combination (face-to-face, webinar, telephonic, combination)</li>
+                                        <li>Program is for : HR, Learning Professionals, Freelancers,Managers</li>
+                                        <li>Prerequisite : Graduation</li>
+                                    </ul>
+
+                                    <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
+                                        <Link href="#"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -273,77 +434,9 @@ export default function Home() {
             </section>
 
 
-            <div className="rs-about style2 logosl ptt-50 pbb-50">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12">
-                            <div className="pb-50">
-                                <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Our Group Businesses</h2>
-                                <br></br>
-                                <Slider {...settings}>
 
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/bla.jpg" />
-                                    </div>
 
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/eve.jpg" />
-                                    </div>
 
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/five.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/jenson8l.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/tirianl.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/lumi.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/inside.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/persona.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/trapo.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/bussion.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/by-cl.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/flight.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/yomalogs.jpg" />
-                                    </div>
-
-                                    <div className='logoslider wow fadeInUp delay-0-2s animated animateUP'>
-                                        <img src="/assets/img/new/logos/dtci.jpg" />
-                                    </div>
-
-                                </Slider>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
 
