@@ -226,7 +226,7 @@ export default function Home() {
                         <div className='col-sm-6 zindexx    '>
                             <div className='moduleinner'>
                                 <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching for Performance Module II</h3>
-                                <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/model1.png" alt="images" />
+                                <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/model2.png" alt="images" />
                             </div>
                         </div>
                     </div>
@@ -327,7 +327,7 @@ export default function Home() {
                         <div className='col-sm-8'>
                             <div className='row'>
                                 <div className='col-sm-6'>
-                                    <div className='innerteamc'>
+                                    <div className='innerteamc  mtt-30'>
                                         <div className='teamimgc1'>
                                             <a target="_blank" href="/yogesh-sood"><img src="/assets/img/team/yogesh-sood.jpg" alt="" /></a>
                                         </div>
@@ -349,7 +349,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='col-sm-6'>
-                                    <div className='innerteamc mtt-80'>
+                                    <div className='innerteamc mtt-30'>
                                         <div className='teamimgc1'>
                                             <a href="#"><img src="/assets/img/team/sandeep.jpg" alt="" /></a>
                                         </div>
