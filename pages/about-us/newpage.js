@@ -178,7 +178,7 @@ export default function Home() {
                                         This coaching model is designed to help clients develop a clear understanding of their situation, set specific goals, measure progress, and take action towards success. This model is supported by Problem solving tools at various steps.
                                     </p>
                                     <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
-                                        <Link href="#"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                        <Link href="#know-more"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -225,7 +225,7 @@ export default function Home() {
                         </div>
                         <div className='col-sm-6 zindexx    '>
                             <div className='moduleinner'>
-                                <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching Foundation  Module 1</h3>
+                                <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching for Performance Module II</h3>
                                 <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/model1.png" alt="images" />
                             </div>
                         </div>
@@ -414,7 +414,7 @@ export default function Home() {
                                     </ul>
 
                                     <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
-                                        <Link href="#"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                        <Link href="#know-more"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
                                     </div>
                                     </div>
                                 </div>
@@ -440,7 +440,7 @@ export default function Home() {
 
 
 
-            <div class="homecon ptt-60">
+            <div id='know-more' class="homecon ptt-60">
                 <div class="container">
                     <div className='row'>
                         <div className='col-sm-3'>
