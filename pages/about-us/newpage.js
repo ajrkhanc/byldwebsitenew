@@ -450,39 +450,39 @@ export default function Home() {
                                     <tr>
                                         <th>Dates</th>
                                         <th>Time</th>
-                                        <th>Event Name</th>
+                                        <th>Events Name</th>
                                         <th>Book Know</th>
                                     </tr>
                                     <tr>
-                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td className='texttras'>16 April 2023</td>
                                         <td>10:30 AM to 5:00 PM</td>
                                         <td>Virtual Training Apollo3</td>
                                         <td><a href='#'>Register Now</a></td>
                                     </tr>
 
                                     <tr>
-                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td className='texttras'>17 June 2023</td>
                                         <td>10:30 AM to 5:00 PM</td>
                                         <td>Harnessing Creative Intelligence</td>
                                         <td><a href='#'>Register Now</a></td>
                                     </tr>
 
                                     <tr>
-                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td className='texttras'>30 May 2023</td>
                                         <td>10:30 AM to 5:00 PM</td>
                                         <td>Five Behaviour - Course Preview</td>
                                         <td><a href='#'>Register Now</a></td>
                                     </tr>
 
                                     <tr>
-                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td className='texttras'>20 June 2023</td>
                                         <td>10:30 AM to 5:00 PM</td>
                                         <td>DISC Train-the-Trainer (TTT)</td>
                                         <td><a href='#'>Register Now</a></td>
                                     </tr>
 
                                     <tr>
-                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td className='texttras'>12 May 2023</td>
                                         <td>10:30 AM to 5:00 PM</td>
                                         <td>The SLII Experience™ - Face to Face</td>
                                         <td><a href='#'>Register Now</a></td>
