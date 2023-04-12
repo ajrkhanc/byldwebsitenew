@@ -995,3 +995,7 @@ h6 {
     margin-left: 0;
     color: #000;    
 }
+
+.width100p{
+    width: 100%;
+}

@@ -210,7 +210,7 @@ export default function Home() {
                             <div className='text-center'>
                                 <div className='minnerb wow fadeInUp delay-0-2s animated animateUP'>
                                     <h3>Time - 130 hrs</h3>
-                                    <h4> Max students - 12 </h4>
+                                    <h4> Max students - 20 </h4>
                                 </div>
                             </div>
                         </div>
@@ -436,7 +436,71 @@ export default function Home() {
 
 
 
+            <section className='aboutmap ptt-50 pbb-40'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center pbb-30'>
+                            <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Our Upcoming Training schedule</h2>
+                        </div>
+                        <div className='clearfix'></div>
 
+                        <div className='col-sm-12'>
+                            <div>
+                                <table className='mtblc wow fadeInUp delay-0-2s animated animateUP width100p'>
+                                    <tr>
+                                        <th>Dates</th>
+                                        <th>Time</th>
+                                        <th>Event Name</th>
+                                        <th>Book Know</th>
+                                    </tr>
+                                    <tr>
+                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td>10:30 AM to 5:00 PM</td>
+                                        <td>Virtual Training Apollo3</td>
+                                        <td><a href='#'>Register Now</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td>10:30 AM to 5:00 PM</td>
+                                        <td>Harnessing Creative Intelligence</td>
+                                        <td><a href='#'>Register Now</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td>10:30 AM to 5:00 PM</td>
+                                        <td>Five Behaviour - Course Preview</td>
+                                        <td><a href='#'>Register Now</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td>10:30 AM to 5:00 PM</td>
+                                        <td>DISC Train-the-Trainer (TTT)</td>
+                                        <td><a href='#'>Register Now</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td className='texttras'>27 Apr to 2 May 2023</td>
+                                        <td>10:30 AM to 5:00 PM</td>
+                                        <td>The SLII Experience™ - Face to Face</td>
+                                        <td><a href='#'>Register Now</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td className='texttras'>29 April 2023</td>
+                                        <td>10:30 AM to 5:00 PM</td>
+                                        <td>Everything DISC - Virtual Course Preview</td>
+                                        <td><a href='#'>Register Now</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
 
 
@@ -477,7 +541,7 @@ export default function Home() {
                                                 <input className='borrr' type="text" name="Location" placeholder="Location" />
                                             </div>
                                             <div className="col-sm-6 mb-12">
-                                                <input className='borrr' type="text" name="organization" placeholder="Organization*" required />
+                                                <input className='borrr' type="text" name="organization" placeholder="Organization" />
                                             </div>
                                             <div className="col-sm-6 mb-12">
                                                 <input className='borrr' type="text" name="designation" placeholder="Designation*" required />
