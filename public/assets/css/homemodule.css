@@ -999,3 +999,39 @@ h6 {
 .width100p{
     width: 100%;
 }
+
+
+/* Policyes */
+.headeing2{
+    font-size: 30px !important;
+}
+.policyeslist ul{
+    padding-left: 0px;
+}
+.policyeslist li{
+    font-size: 15px;
+    line-height: 37px;
+    padding-bottom: 17px;
+    background-size: 25px;
+    list-style-type: none;
+    padding-left: 2em;
+    margin-left: 0;
+    color: #000;
+    padding-left: 0px;
+}
+
+.policyeslist li span{
+    font-size: 16px;
+    color: #3373af;
+}
+
+.policyeslist h3{
+    font-size: 18px;
+    color: #3373af;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.policyeslist p{
+    font-size: 15px;
+    line-height: 37px;}
