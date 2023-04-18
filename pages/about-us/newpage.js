@@ -150,7 +150,7 @@ export default function Home() {
                                 </span>
                                 <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
                                 <Link href="#"><a className="readon2">Download Brochure <div className="btn-arrow"></div></a></Link>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                     </div>
