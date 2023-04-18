@@ -29,30 +29,30 @@ export default function Home() {
                         <div className='col-sm-12 text-left pbb-10'>
                             <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP headeing2">Coaching Foundation Module 1</h2>
                             <p className='wow fadeInUp delay-0-2s animated animateUP'>
-                            Module I covers essential topics that will help you become a successful and effective coach. Overall, this module is a comprehensive start that will equip you with essential skills and knowledge to become a successful and effective coach. In different phases:
+                                Module I covers essential topics that will help you become a successful and effective coach. Overall, this module is a comprehensive start that will equip you with essential skills and knowledge to become a successful and effective coach. In different phases:
                             </p>
                         </div>
                         <div className='clearfix'></div>
 
                         <div className='col-sm-12'>
                             <div className='policyeslist wow fadeInUp delay-0-2s animated animateUP'>
-                           
-                                <p className='mbb-20'>
-                                We will learn about ethical practice and coach values, and gain insights on how to navigate ethical dilemmas with integrity. Additionally, you will learn about the road to becoming an accredited coach, which is essential for gaining credibility and recognition in the coaching industry. 
-                                </p>
-
-                                
-                                <p className='mbb-20'>
-                                As coaching is a partnership between the coach and the client, and you will learn how to embody a coaching mindset that fosters a collaborative relationship with your client. You will also learn the fundamental skill of evoking awareness, which involves helping the client gain insights and perspectives that they may not have been aware of before.
-                                </p>
 
                                 <p className='mbb-20'>
-                                Subsequently, we will focus on how to manage client trust and intimacy effectively. We will show you how to measure the effectiveness of your coaching sessions and make necessary improvements to enhance the quality of your coaching.
+                                    We will learn about ethical practice and coach values, and gain insights on how to navigate ethical dilemmas with integrity. Additionally, you will learn about the road to becoming an accredited coach, which is essential for gaining credibility and recognition in the coaching industry.
                                 </p>
 
-                               
+
                                 <p className='mbb-20'>
-                                Last but not least, we shall cover Coaching for Performance where you will learn how to help your clients achieve their goals and improve their performance in various aspects of their lives.
+                                    As coaching is a partnership between the coach and the client, and you will learn how to embody a coaching mindset that fosters a collaborative relationship with your client. You will also learn the fundamental skill of evoking awareness, which involves helping the client gain insights and perspectives that they may not have been aware of before.
+                                </p>
+
+                                <p className='mbb-20'>
+                                    Subsequently, we will focus on how to manage client trust and intimacy effectively. We will show you how to measure the effectiveness of your coaching sessions and make necessary improvements to enhance the quality of your coaching.
+                                </p>
+
+
+                                <p className='mbb-20'>
+                                    Last but not least, we shall cover Coaching for Performance where you will learn how to help your clients achieve their goals and improve their performance in various aspects of their lives.
                                 </p>
 
                                 <h3 className='mbb-20'>Here’s a quick snapshot of the topics covered</h3>
@@ -63,7 +63,7 @@ export default function Home() {
                                         <th>Module Name</th>
                                         <th>Learning Goal</th>
                                         <th width="140px">Time (Mins)</th>
-                                      
+
                                     </tr>
                                     <tr>
                                         <td>01</td>
@@ -150,12 +150,18 @@ export default function Home() {
                                         <td>Learn to build positive accountability for Coaching Effectiveness</td>
                                         <td>180</td>
                                     </tr>
-                                
 
-                                    
 
-                                    
+
+
+
                                 </table>
+                            </div>
+                        </div>
+
+                        <div className='col-sm-12 text-center'>
+                            <div className="btn-part ptt-10 pbb-30 mtt-30 wow fadeInUp delay-0-2s animated animateUP">
+                                <Link href="/module/module-2"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
                             </div>
                         </div>
 

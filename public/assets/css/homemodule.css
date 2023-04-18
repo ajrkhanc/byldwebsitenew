@@ -1068,6 +1068,29 @@ h6 {
 .zindexxc{
     z-index: 9999;
 }
+.modileshdc{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    background: #fcfcfc;
+}
+.imgbboder{
+    border: 6px solid #a5a5a5;
+    border-left: 0px;
+    border-radius: 7px;
+}
+
+.imgbboder img{
+    width: 100%;
+    padding: 14px 10px 10px 10px;
+}
+
+.tblfont15 td{
+    font-size: 14px;
+}
+
+.oveflohh{
+    overflow: hidden;
+}
+
 /* Policyes */
 .headeing2{
     font-size: 30px !important;

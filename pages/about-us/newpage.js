@@ -160,7 +160,7 @@ export default function Home() {
 
 
 
-            <section className='solutionrow ptt-60 pbb-60'>
+            {/* <section className='solutionrow ptt-60 pbb-60'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-12 text-center'>
@@ -197,18 +197,18 @@ export default function Home() {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
-            <div className="rs-about style2 logosl ptt-50 pbb-50">
+            <div className="rs-about oveflohh style2 logosl ptt-50 pbb-50">
                 <div className="container">
-                    <div className="row">
+                    <div className="row zindx">
                         <div className="col-sm-12">
                             <div className="pb-50  text-center">
                                 <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Modules</h2>
                             </div>
                         </div>
                     </div>
-                    <div className='row mmssb'>
+                    <div className='row mmssb zindx'>
                         <div className='col-sm-12'>
                             <div className='text-center'>
                                 <div className='minnerb wow fadeInUp delay-0-2s animated animateUP'>
@@ -219,25 +219,37 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className='row mmssb2'>
+                    <div className='row mmssb2 zindx'>
                         <div className='col-sm-6 zindexx'>
                             <div className='moduleinner'>
                                 <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching Foundation Module 1</h3>
                                 <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/frame.jpg" alt="images" />
-                                <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
+                                {/* <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
                                     <Link href="/module/module-1"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className='col-sm-6 zindexx'>
                             <div className='moduleinner'>
                                 <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching for Performance Module II</h3>
                                 <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/model2.png" alt="images" />
-                                <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
-                                <Link href="/module/module-2"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
-                                </div>
+                                
                             </div>
                         </div>
+
+                        <div className='col-sm-12 text-center'>
+                        <div className="btn-part ptt-10 pbb-30 mtt-30 wow fadeInUp delay-0-2s animated animateUP">
+                                <Link href="/module/module-1"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
                 </div>
             </div>
