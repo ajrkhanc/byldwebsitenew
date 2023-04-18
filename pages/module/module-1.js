@@ -161,7 +161,7 @@ export default function Home() {
 
                         <div className='col-sm-12 text-center'>
                             <div className="btn-part ptt-10 pbb-30 mtt-30 wow fadeInUp delay-0-2s animated animateUP">
-                                <Link href="/module/module-2"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                <Link href="/module/module-2"><a className="readon2">Module II <div className="btn-arrow"></div></a></Link>
                             </div>
                         </div>
 
