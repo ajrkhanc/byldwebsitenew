@@ -35,14 +35,14 @@ export default function Home() {
                         <div className='col-sm-6 modileshdc'>
                             <div className=''>
                                 <div className='policyeslist wow fadeInUp delay-0-2s animated animateUP'>
-                                <p className='mbb-20 text-justify'>
+                                <p className='mbb-10 text-justify'>
                                     Module I covers essential topics that will help you become a successful and effective coach. Overall, this module is a comprehensive start that will equip you with essential skills and knowledge to become a successful and effective coach. In different phases:
                                 </p>
-                                <p className='mbb-20 text-justify'>
+                                <p className='mbb-10 text-justify'>
                                     We will learn about ethical practice and coach values, and gain insights on how to navigate ethical dilemmas with integrity. Additionally, you will learn about the road to becoming an accredited coach, which is essential for gaining credibility and recognition in the coaching industry.
                                 </p>
 
-                                <p className='mbb-20 text-justify'>
+                                <p className='mbb-10 text-justify'>
                                     As coaching is a partnership between the coach and the client, and you will learn how to embody a coaching mindset that fosters a collaborative relationship with your client. You will also learn the fundamental skill of evoking awareness, which involves helping the client gain insights and perspectives that they may not have been aware of before.
                                 </p>
                                 </div>
@@ -57,11 +57,7 @@ export default function Home() {
 
                         <div className='col-sm-12'>
                             <div className='policyeslist wow fadeInUp delay-0-2s animated animateUP'>
-                                
-
-
-                                
-
+                   
                                 <p className='mbb-20 ptt-20'>
                                     Subsequently, we will focus on how to manage client trust and intimacy effectively. We will show you how to measure the effectiveness of your coaching sessions and make necessary improvements to enhance the quality of your coaching.
                                 </p>
