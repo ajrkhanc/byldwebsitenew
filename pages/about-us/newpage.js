@@ -231,7 +231,7 @@ export default function Home() {
                                 <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching for Performance Module II</h3>
                                 <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/model2.png" alt="images" />
                                 <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
-                                    <Link href="/module/module-2"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                <Link href="/module/module-2"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
                                 </div>
                             </div>
                         </div>
