@@ -59,10 +59,10 @@ export default function Home() {
 
                                 <table className='mtblc wow fadeInUp delay-0-2s animated animateUP width100p'>
                                     <tr>
-                                        <th>S. No</th>
+                                        <th width="80px">S. No</th>
                                         <th>Module Name</th>
                                         <th>Learning Goal</th>
-                                        <th>Time (Mins)</th>
+                                        <th width="140px">Time (Mins)</th>
                                       
                                     </tr>
                                     <tr>
