@@ -1069,11 +1069,10 @@ h6 {
     z-index: 9999;
 }
 .modileshdc{
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    background: #fcfcfc;
+  
 }
 .imgbboder{
-    border: 6px solid #a5a5a5;
+   
     border-left: 0px;
     border-radius: 7px;
 }

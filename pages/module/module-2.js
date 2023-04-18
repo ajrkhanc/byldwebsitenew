@@ -27,9 +27,8 @@ export default function Home() {
             <section className='aboutmap ptt-50 pbb-40'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-sm-12 text-left pbb-10'>
+                        <div className='col-sm-12 text-left pbb-10 text-center'>
                             <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP headeing2">Coaching for Performance Module II</h2>
-
                         </div>
                         <div className='clearfix'></div>
 
