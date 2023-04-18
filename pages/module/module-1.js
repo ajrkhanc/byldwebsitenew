@@ -26,27 +26,43 @@ export default function Home() {
             <section className='aboutmap ptt-50 pbb-40'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-sm-12 text-left pbb-10'>
+                        <div className='col-sm-12 text-center pbb-10'>
                             <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP headeing2">Coaching Foundation Module 1</h2>
-                            <p className='wow fadeInUp delay-0-2s animated animateUP'>
-                                Module I covers essential topics that will help you become a successful and effective coach. Overall, this module is a comprehensive start that will equip you with essential skills and knowledge to become a successful and effective coach. In different phases:
-                            </p>
+
                         </div>
                         <div className='clearfix'></div>
 
-                        <div className='col-sm-12'>
-                            <div className='policyeslist wow fadeInUp delay-0-2s animated animateUP'>
-
-                                <p className='mbb-20'>
+                        <div className='col-sm-6 modileshdc'>
+                            <div className=''>
+                                <div className='policyeslist wow fadeInUp delay-0-2s animated animateUP'>
+                                <p className='mbb-20 text-justify'>
+                                    Module I covers essential topics that will help you become a successful and effective coach. Overall, this module is a comprehensive start that will equip you with essential skills and knowledge to become a successful and effective coach. In different phases:
+                                </p>
+                                <p className='mbb-20 text-justify'>
                                     We will learn about ethical practice and coach values, and gain insights on how to navigate ethical dilemmas with integrity. Additionally, you will learn about the road to becoming an accredited coach, which is essential for gaining credibility and recognition in the coaching industry.
                                 </p>
 
-
-                                <p className='mbb-20'>
+                                <p className='mbb-20 text-justify'>
                                     As coaching is a partnership between the coach and the client, and you will learn how to embody a coaching mindset that fosters a collaborative relationship with your client. You will also learn the fundamental skill of evoking awareness, which involves helping the client gain insights and perspectives that they may not have been aware of before.
                                 </p>
+                                </div>
+                            </div>
+                        </div>
 
-                                <p className='mbb-20'>
+                        <div className='col-sm-6 imgbboder'>
+                            <div className='wow fadeInUp delay-0-2s animated animateUP'>
+                                <img src="/assets/img/new/frams.png" alt="images" />
+                            </div>
+                        </div>
+
+                        <div className='col-sm-12'>
+                            <div className='policyeslist wow fadeInUp delay-0-2s animated animateUP'>
+                                
+
+
+                                
+
+                                <p className='mbb-20 ptt-20'>
                                     Subsequently, we will focus on how to manage client trust and intimacy effectively. We will show you how to measure the effectiveness of your coaching sessions and make necessary improvements to enhance the quality of your coaching.
                                 </p>
 
