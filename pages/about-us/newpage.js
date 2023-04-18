@@ -219,14 +219,20 @@ export default function Home() {
                     <div className='row mmssb2'>
                         <div className='col-sm-6 zindexx'>
                             <div className='moduleinner'>
-                                <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching Foundation  Module 1</h3>
+                                <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching Foundation Module 1</h3>
                                 <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/frame.jpg" alt="images" />
+                                <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
+                                    <Link href="/module/module-1"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                </div>
                             </div>
                         </div>
-                        <div className='col-sm-6 zindexx    '>
+                        <div className='col-sm-6 zindexx'>
                             <div className='moduleinner'>
                                 <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching for Performance Module II</h3>
                                 <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/model2.png" alt="images" />
+                                <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
+                                    <Link href="/module/module-1"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -323,10 +329,10 @@ export default function Home() {
                         </div>
                     </div>
                     <div className='row zindx'>
-                        <div className='col-sm-2'></div>
-                        <div className='col-sm-8'>
+                        <div className='col-sm-1'></div>
+                        <div className='col-sm-10 zindexxc'>
                             <div className='row'>
-                                <div className='col-sm-6'>
+                                <div className='col-sm-4'>
                                     <div className='innerteamc  mtt-30'>
                                         <div className='teamimgc1'>
                                             <a target="_blank" href="/yogesh-sood"><img src="/assets/img/team/yogesh-sood.jpg" alt="" /></a>
@@ -348,7 +354,7 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div className='col-sm-6'>
+                                <div className='col-sm-8'>
                                     <div className='innerteamc mtt-30'>
                                         <div className='teamimgc1'>
                                             <a href="#"><img src="/assets/img/team/sandeep.jpg" alt="" /></a>
@@ -404,18 +410,18 @@ export default function Home() {
                                 </div>
                                 <div className='col-sm-6'>
                                     <div className='pll-20'>
-                                    <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Program Details</h2>
-                                    <ul className='programul ptt-20'>
-                                        <li>Program Starts : (May onwards)</li>
-                                        <li>Language : English</li>
-                                        <li>Delivery Method: Combination (face-to-face, webinar, telephonic, combination)</li>
-                                        <li>Program is for : HR, Learning Professionals, Freelancers,Managers</li>
-                                        <li>Prerequisite : Graduation</li>
-                                    </ul>
+                                        <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Program Details</h2>
+                                        <ul className='programul ptt-20'>
+                                            <li>Program Starts : (May onwards)</li>
+                                            <li>Language : English</li>
+                                            <li>Delivery Method: Combination (face-to-face, webinar, telephonic, combination)</li>
+                                            <li>Program is for : HR, Learning Professionals, Freelancers,Managers</li>
+                                            <li>Prerequisite : Graduation</li>
+                                        </ul>
 
-                                    <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
-                                        <Link href="#know-more"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
-                                    </div>
+                                        <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
+                                            <Link href="#know-more"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -438,13 +444,161 @@ export default function Home() {
 
             <section className='aboutmap ptt-50 pbb-40'>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row align-items-center'>
                         <div className='col-sm-12 text-center pbb-30'>
                             <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Our Upcoming Training schedule</h2>
                         </div>
                         <div className='clearfix'></div>
+                        <div className='col-sm-6'>
+                            <div className='innerca'>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        06<br></br> Jun
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        Virtual Training Apollo3
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
+                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
 
-                        <div className='col-sm-12'>
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-sm-6'>
+                            <div className='innerca'>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        17<br></br> Jun
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        Harnessing Creative Intelligence
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
+                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-sm-6'>
+                            <div className='innerca'>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        30<br></br> May
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        Five Behaviour - Course Preview
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
+                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-sm-6'>
+                            <div className='innerca'>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        20<br></br> Jun
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        DISC Train-the-Trainer (TTT)
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
+                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-sm-6'>
+                            <div className='innerca'>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        12<br></br> May
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        The SLII Experience™ - Face to Face
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
+                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-sm-6'>
+                            <div className='innerca'>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        29<br></br> July
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        Everything DISC - Virtual Course Preview
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
+                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* <div className='col-sm-12'>
                             <div>
                                 <table className='mtblc wow fadeInUp delay-0-2s animated animateUP width100p'>
                                     <tr>
@@ -496,7 +650,7 @@ export default function Home() {
                                     </tr>
                                 </table>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

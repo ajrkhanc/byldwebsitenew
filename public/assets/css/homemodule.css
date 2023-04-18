@@ -1000,7 +1000,74 @@ h6 {
     width: 100%;
 }
 
+.dateside{
+    float: left;
+    background-color: #676767;
+    color: #fff;
+    width: 100px;
+    min-height: 100px;
+    padding: 10px;
+    text-align: center;
+}
 
+.textsidec{
+    float: left;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.eventi{
+    font-size: 16px;
+    color: #3373af;
+}
+
+.timed ul li i{
+    color: #000000;
+}
+.timed ul li i::before{
+    color: #e88026;
+    padding-right: 5px;
+}
+
+.booknowside{
+    float: right;
+    padding: 10px;
+    background: #e88026;
+    height: 100%;
+    display: inline-block;
+    width: 40px;
+    min-width: 40px;
+    height: auto;
+    position: relative;
+    min-height: 112px;
+}
+
+.booknowside a{
+    position: absolute;
+    transform-origin: left top;
+    transform: rotate(270deg) translateX(-100%);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #fff !important;
+    width: 90px;
+}
+
+.innerca{
+    background: white;
+    overflow: hidden;
+    margin-bottom: 22px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.datefont{
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.zindexxc{
+    z-index: 9999;
+}
 /* Policyes */
 .headeing2{
     font-size: 30px !important;
@@ -1034,4 +1101,4 @@ h6 {
 
 .policyeslist p{
     font-size: 15px;
-    line-height: 37px;}
+    line-height: 32px;}
