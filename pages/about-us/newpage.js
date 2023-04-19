@@ -92,8 +92,8 @@ export default function Home() {
 
 
             <Head>
-                <title>Law Firm Website | BYLD Group</title>
-                <meta name="description" content="Law Firm Website" />
+                <title>Get Your Certification Today | BYLD Group</title>
+                <meta name="description" content="Get Your Certification Today" />
                 <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
                 <script
                     dangerouslySetInnerHTML={{
@@ -117,25 +117,13 @@ export default function Home() {
           `,
                     }}
                 />
-                <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
+                <link rel="stylesheet" type="text/css" href="/assets/css/cohomemodule.css" />
             </Head>
 
             <div class="rs-breadcrumbs lawfirms">
                 <div class="container">
                     <div class="breadcrumb-container theme1 wow fadeInUp delay-0-2s animated animateUP">
-                        <ul>
-                            <li>
-                                <a href="/">
-                                    <span>Home</span>
-                                </a>
-                                <span class="separator">/</span>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Law Firm Website</span>
-                                </a>
-                            </li>
-                        </ul>
+
                     </div>
 
                     <div className='row'>
@@ -378,7 +366,7 @@ export default function Home() {
                                             <div className="name">
                                                 <a href="#">Sandeep Budhiraja</a>
                                             </div>
-                                            <span className="post">Certified Master Trainer – ICF Coaching Curriculum, PMC Global™ | Master Facilitator DTCI ViLT | Certified ICF ACC Coach</span>
+                                            <span className="post">Certified Master Trainer – ICF Coaching Curriculum, PMC Global™<br></br> Master Facilitator DTCI ViLT | Certified ICF ACC Coach</span>
                                         </div>
                                         <div>
                                             <ul className="social-icon">
@@ -386,7 +374,7 @@ export default function Home() {
                                             </ul>
                                         </div>
                                         <div className='teampera'>
-                                            <p>Certified trainer for Self Track and Other's Track from Partners in Leadership. Global leader in Accountability Training.</p>
+                                            <p>Certified trainer for Self Track and Other's Track from Partners in Leadership.<br></br>Global leader in Accountability Training.</p>
                                         </div>
                                     </div>
                                 </div>
