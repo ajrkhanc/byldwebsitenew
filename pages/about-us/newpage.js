@@ -783,7 +783,7 @@ export default function Home() {
                                         <a href='/policies/enrollment-agreement-for-actp-program-offered'>Enrollment Agreement Policy</a>
                                     </li>
                                     <li>
-                                        <a href='/policies/ethical-marketing-policy'>Partial Completion Policy</a>
+                                        <a href='/policies/ethical-marketing-policy'>Ethical Marketing Practice</a>
                                     </li>
                                 </ul>
                             </div>
