@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Slider from "react-slick";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
 
 import CountUp from 'react-countup';
 import React from 'react';
@@ -87,6 +88,44 @@ export default function Home() {
 
     }
 
+
+    const submit = async event => {
+        event.preventDefault()
+        document.getElementById("submitbuttonform").value = "Submitting form...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/byldgroup/wp-json/contact-form-7/v1/contact-forms/79/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/thank-you"
+                    }, 3000);
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("fname=" + event.target.fname.value +
+            "&email=" + event.target.email.value +
+            "&phone=" + event.target.phone.value +
+            "&company=" + event.target.company.value +
+            "&designation=" + event.target.designation.value +
+            "&howdidyouknowaboutus=" + event.target.howdidyouknowaboutus.value +
+            "&leadsquared_Notes=" + event.target.leadsquared_Notes.value)
+
+    }
+
+
+    const [modalOpen, setModalOpen] = React.useState(false);
+
     return (
         <>
 
@@ -120,6 +159,53 @@ export default function Home() {
                 <link rel="stylesheet" type="text/css" href="/assets/css/cohomemodule.css" />
             </Head>
 
+
+            <Modal toggle={() => setModalOpen(!modalOpen)} isOpen={modalOpen} backdrop="static" keyboard={false} className='ccmdc'>
+                <button
+                    aria-label="Close"
+                    className="close popcl"
+                    type="button"
+                    onClick={() => setModalOpen(!modalOpen)}
+                >
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+
+                    <form id="contactForm" className='clientcornner ptt-5 pbb-0' onSubmit={submit}>
+                        <div className="row">
+                            <div className="col-sm-12 mb-12">
+                                <input type="text" name="name" placeholder="Name*" required />
+                            </div>
+                            <div className="col-sm-12 mb-12">
+                                <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                            </div>
+                            <div className="col-sm-12 mb-12">
+                                <input type="email" name="email" placeholder="Professional/Personal Email Address*" required />
+                            </div>
+
+
+                            <div className="col-sm-12 mb-12">
+                                <input type="text" name="organization" placeholder="Organization*" required />
+                            </div>
+                            <div className="col-sm-12 mb-12">
+                                <input type="text" name="designation" placeholder="Designation*" required />
+                            </div>
+
+
+                            <div className="col-sm-12 d-none">
+                                <input type="text" name="Business_Entity" value="ICF" required />
+                            </div>
+                            <div className="col-lg-12 mb-12 text-center">
+                                <input id='submitbuttonform' className="clientcornnerbtn" type="submit" value="Register" />
+                            </div>
+                            <p id="showlabel" style={{ display: "none" }}></p>
+                        </div>
+                    </form>
+                </ModalBody>
+
+            </Modal>
+
             <div class="rs-breadcrumbs lawfirms">
                 <div class="container">
                     <div class="breadcrumb-container theme1 wow fadeInUp delay-0-2s animated animateUP">
@@ -137,8 +223,8 @@ export default function Home() {
                                     People are the best source of solutions to their own problems and aspirations. Coach is there to help and accelerate the journey to destination or solution.
                                 </span>
                                 <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
-                                <Link href="#"><a className="readon2">Download Brochure <div className="btn-arrow"></div></a></Link>
-                                </div> 
+                                    <Link href="#"><a className="readon2">Download Brochure <div className="btn-arrow"></div></a></Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -221,14 +307,14 @@ export default function Home() {
                             <div className='moduleinner'>
                                 <h3 className='wow fadeInUp delay-0-2s animated animateUP'>Coaching for Performance Module II</h3>
                                 <img className='wow fadeInUp delay-0-2s animated animateUP' src="/assets/img/new/model2.png" alt="images" />
-                                
+
                             </div>
                         </div>
 
                         <div className='col-sm-12 text-center'>
-                        <div className="btn-part ptt-10 pbb-30 mtt-30 wow fadeInUp delay-0-2s animated animateUP">
+                            <div className="btn-part ptt-10 pbb-30 mtt-30 wow fadeInUp delay-0-2s animated animateUP">
                                 <Link href="/module/module-1"><a className="readon2">Know More <div className="btn-arrow"></div></a></Link>
-                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -445,7 +531,7 @@ export default function Home() {
 
 
 
-            <section className='aboutmap ptt-50 pbb-40'>
+            <section className='aboutmap ptt-50 pbb-40 zinc'>
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-sm-12 text-center pbb-30'>
@@ -453,7 +539,8 @@ export default function Home() {
                         </div>
                         <div className='clearfix'></div>
                         <div className='col-sm-6'>
-                            <div className='innerca'>
+
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
                                 <div className='dateside'>
                                     <div className='datefont'>
                                         06<br></br> Jun
@@ -475,10 +562,11 @@ export default function Home() {
                                     <a href='#'>Book Now</a>
                                 </div>
                             </div>
+
                         </div>
 
                         <div className='col-sm-6'>
-                            <div className='innerca'>
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
                                 <div className='dateside'>
                                     <div className='datefont'>
                                         17<br></br> Jun
@@ -503,7 +591,7 @@ export default function Home() {
                         </div>
 
                         <div className='col-sm-6'>
-                            <div className='innerca'>
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
                                 <div className='dateside'>
                                     <div className='datefont'>
                                         30<br></br> May
@@ -528,7 +616,7 @@ export default function Home() {
                         </div>
 
                         <div className='col-sm-6'>
-                            <div className='innerca'>
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
                                 <div className='dateside'>
                                     <div className='datefont'>
                                         20<br></br> Jun
@@ -553,7 +641,7 @@ export default function Home() {
                         </div>
 
                         <div className='col-sm-6'>
-                            <div className='innerca'>
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
                                 <div className='dateside'>
                                     <div className='datefont'>
                                         12<br></br> May
@@ -577,7 +665,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className='col-sm-6'>
-                            <div className='innerca'>
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
                                 <div className='dateside'>
                                     <div className='datefont'>
                                         29<br></br> July
@@ -676,8 +764,28 @@ export default function Home() {
 
                     <div class="row y-middle">
                         <div class="col-lg-5 md-mb-50">
-                            <div class="contact-img wow fadeInUp delay-0-2s animated animateUP">
+                            {/* <div class="contact-img wow fadeInUp delay-0-2s animated animateUP">
                                 <img src="/assets/img/homeb/contactl.png" alt="Contact" />
+                            </div> */}
+
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href='/policies/byld-group-and-coach-candidate-partial-completion-policy'>Partial Completion Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/byld-group-complaint-and-grievance-policy'>Grievance Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/disability-and-discrimination-statement'>Disability & Discrimination Statement</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/enrollment-agreement-for-actp-program-offered'>Enrollment Agreement Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/ethical-marketing-policy'>Partial Completion Policy</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -688,22 +796,20 @@ export default function Home() {
                                             <div className="col-sm-6 mb-12">
                                                 <input className='borrr' type="text" name="name" placeholder="Enter Name*" required />
                                             </div>
-                                            <div className="col-sm-6 mb-12">
-                                                <input className='borrr' type="email" name="email" placeholder="Enter Email*" required />
-                                            </div>
+
                                             <div className="col-sm-6 mb-12">
                                                 <input className='borrr' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                             </div>
                                             <div className="col-sm-6 mb-12">
-                                                <input className='borrr' type="text" name="Location" placeholder="Location" />
+                                                <input className='borrr' type="email" name="email" placeholder="Professional/Personal Email Address*" required />
                                             </div>
                                             <div className="col-sm-6 mb-12">
                                                 <input className='borrr' type="text" name="organization" placeholder="Organization" />
                                             </div>
-                                            <div className="col-sm-6 mb-12">
+                                            <div className="col-sm-12 mb-12">
                                                 <input className='borrr' type="text" name="designation" placeholder="Designation*" required />
                                             </div>
-                                            <div className="col-sm-6 mb-12">
+                                            <div className="col-sm-12 mb-12">
                                                 <select name="product" required>
                                                     <option value="">Product / Services</option>
                                                     <option value="Sales and Services">Sales and Services</option>
@@ -713,20 +819,8 @@ export default function Home() {
                                                     <option value="Experiential Learning">Experiential Learning</option>
                                                 </select>
                                             </div>
-                                            <div className="col-sm-6 mb-12">
-                                                <select name="referredby" required>
-                                                    <option value="">Referred By</option>
-                                                    <option value="Email">Email</option>
-                                                    <option value="Social Media">Social Media</option>
-                                                    <option value="Google Search">Google Search</option>
-                                                    <option value="Website">Website</option>
-                                                    <option value="Reference">Reference</option>
-                                                    <option value="Sales Representative">Sales Representative</option>
-                                                </select>
-                                            </div>
-                                            <div className="col-lg-12 mb-12">
-                                                <textarea className="from-control" name="leadsquared_Notes" placeholder="Let us know what you are looking for."></textarea>
-                                            </div>
+                                            
+                                          
                                             <div className="col-lg-12 mb-12">
                                                 <input id="submitbuttonform" className="clientcornnerbtn bord0" type="submit" value="Submit" />
                                             </div>

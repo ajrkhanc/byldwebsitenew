@@ -47,7 +47,7 @@ export default function Home() {
 
                         <div className='col-sm-6 imgbboder'>
                             <div className='wow fadeInUp delay-0-2s animated animateUP'>
-                                <img src="/assets/img/new/model1.png" alt="images" />
+                                <img src="/assets/img/new/admilogo.png" alt="images" />
                             </div>
                         </div>
 
@@ -158,6 +158,12 @@ export default function Home() {
 
 
                             </table>
+                        </div>
+
+                        <div className='col-sm-12 text-center'>
+                            <div className="btn-part ptt-10 pbb-30 mtt-30 wow fadeInUp delay-0-2s animated animateUP">
+                                <Link href="/about-us/newpage"><a className="readon2">Continue <div className="btn-arrow"></div></a></Link>
+                            </div>
                         </div>
                         
 
