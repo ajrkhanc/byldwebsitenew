@@ -118,6 +118,23 @@ export default function Home() {
                             </div>
                         </div>
 
+                        <div className='col-sm-12'>
+                        <ul className='mpolicyesc'>
+                                    <li>
+                                        <a href='/policies/byld-group-and-coach-candidate-partial-completion-policy'>Partial Completion Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/byld-group-complaint-and-grievance-policy'>Grievance Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/disability-and-discrimination-statement'>Disability & Discrimination Statement</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/ethical-marketing-policy'>Ethical Marketing Practice</a>
+                                    </li>
+                                </ul>
+                        </div>
+
                     </div>
                 </div>
             </section>

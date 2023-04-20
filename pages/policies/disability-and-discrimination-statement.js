@@ -32,6 +32,23 @@ export default function Home() {
                             We at BYLD Group are committed to providing a safe and inclusive environment for everyone. We do not tolerate any form of disability discrimination, harassment, or victimisation. We are committed to promoting equal access, opportunity, and respect for all people regardless of their disability. We actively strive to ensure that everyone is treated equally and with respect, and that any differences in ability or disability are recognised and valued. We are committed to providing reasonable adjustments to ensure that everyone can participate fully in our activities. We will take all necessary steps to prevent disability discrimination, harassment, and victimisation and to promote a positive and inclusive culture for all.
                             </p>
                         </div>
+
+                        <div className='col-sm-12'>
+                        <ul className='mpolicyesc'>
+                                    <li>
+                                        <a href='/policies/byld-group-and-coach-candidate-partial-completion-policy'>Partial Completion Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/byld-group-complaint-and-grievance-policy'>Grievance Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/enrollment-agreement-for-actp-program-offered'>Enrollment Agreement Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/ethical-marketing-policy'>Ethical Marketing Practice</a>
+                                    </li>
+                                </ul>
+                        </div>
                     
                     </div>
                 </div>

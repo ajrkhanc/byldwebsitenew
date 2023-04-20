@@ -44,6 +44,23 @@ export default function Home() {
                                 <p>This Policy is effective as of 23-03-2023.</p>                               
                             </div>
                         </div>
+
+                        <div className='col-sm-12'>
+                        <ul className='mpolicyesc'>                                   
+                                    <li>
+                                        <a href='/policies/byld-group-complaint-and-grievance-policy'>Grievance Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/disability-and-discrimination-statement'>Disability & Discrimination Statement</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/enrollment-agreement-for-actp-program-offered'>Enrollment Agreement Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/ethical-marketing-policy'>Ethical Marketing Practice</a>
+                                    </li>
+                                </ul>
+                        </div>
                     
                     </div>
                 </div>

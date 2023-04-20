@@ -1104,6 +1104,25 @@ h6 {
     top: 12%;
 }
 
+.mpolicyes li{
+    float: left;
+    padding: 31px 7px;
+}
+
+.mpolicyes li a{
+    background: #3373ae;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 28px;
+}
+
+.policyh4{
+    color: #e88026;
+    font-weight: 500;
+    font-size: 30px;    
+    padding-left: 25px;
+}
+
 /* Policyes */
 .headeing2{
     font-size: 30px !important;

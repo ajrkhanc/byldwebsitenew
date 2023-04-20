@@ -1124,3 +1124,17 @@ h6 {
 .policyeslist p{
     font-size: 15px;
     line-height: 32px;}
+
+
+    .mpolicyesc li{
+        float: left;
+        padding: 31px 7px;
+    }
+    
+    .mpolicyesc li a{
+        background: #3373ae;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 28px;
+        font-size: 14px;
+    }

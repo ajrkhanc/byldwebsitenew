@@ -543,7 +543,7 @@ export default function Home() {
                             <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
                                 <div className='dateside'>
                                     <div className='datefont'>
-                                        06<br></br> Jun
+                                        22<br></br> April
                                     </div>
                                 </div>
                                 <div className='textsidec'>
@@ -552,8 +552,8 @@ export default function Home() {
                                     </div>
                                     <div className='timed'>
                                         <ul>
-                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
-                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
+                                            <li><i className='fa fa-th-large'>DCA Batch 39</i></li>
+                                            <li><i className='fa fa-clock-o'>10:00 am to 4:00 pm</i></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -569,7 +569,7 @@ export default function Home() {
                             <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
                                 <div className='dateside'>
                                     <div className='datefont'>
-                                        17<br></br> Jun
+                                        10<br></br> June
                                     </div>
                                 </div>
                                 <div className='textsidec'>
@@ -578,8 +578,8 @@ export default function Home() {
                                     </div>
                                     <div className='timed'>
                                         <ul>
-                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
-                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
+                                            <li><i className='fa fa-th-large'>DCA Batch 40</i></li>
+                                            <li><i className='fa fa-clock-o'>10:00 am to 4:00 pm</i></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -590,80 +590,6 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className='col-sm-6'>
-                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
-                                <div className='dateside'>
-                                    <div className='datefont'>
-                                        30<br></br> May
-                                    </div>
-                                </div>
-                                <div className='textsidec'>
-                                    <div className='eventi'>
-                                        Five Behaviour - Course Preview
-                                    </div>
-                                    <div className='timed'>
-                                        <ul>
-                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
-                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='col-sm-6'>
-                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
-                                <div className='dateside'>
-                                    <div className='datefont'>
-                                        20<br></br> Jun
-                                    </div>
-                                </div>
-                                <div className='textsidec'>
-                                    <div className='eventi'>
-                                        DISC Train-the-Trainer (TTT)
-                                    </div>
-                                    <div className='timed'>
-                                        <ul>
-                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
-                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='col-sm-6'>
-                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
-                                <div className='dateside'>
-                                    <div className='datefont'>
-                                        12<br></br> May
-                                    </div>
-                                </div>
-                                <div className='textsidec'>
-                                    <div className='eventi'>
-                                        The SLII Experience™ - Face to Face
-                                    </div>
-                                    <div className='timed'>
-                                        <ul>
-                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
-                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
-                                </div>
-                            </div>
-                        </div>
                         <div className='col-sm-6'>
                             <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
                                 <div className='dateside'>
@@ -673,12 +599,12 @@ export default function Home() {
                                 </div>
                                 <div className='textsidec'>
                                     <div className='eventi'>
-                                        Everything DISC - Virtual Course Preview
+                                        Five Behaviour - Course Preview
                                     </div>
                                     <div className='timed'>
                                         <ul>
-                                            <li><i className='fa fa-clock-o'>10:30 AM to 5:00 PM</i></li>
-                                            <li><i className='fa fa-calendar '>16 April 2023</i></li>
+                                            <li><i className='fa fa-th-large'>DCA Batch 41</i></li>
+                                            <li><i className='fa fa-clock-o'>10:00 am to 4:00 pm</i></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -688,6 +614,106 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
+
+                        <div className='col-sm-6'>
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        16<br></br> Sep
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        DISC Train-the-Trainer (TTT)
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-th-large'>DCA Batch 42</i></li>
+                                            <li><i className='fa fa-clock-o'>10:00 am to 4:00 pm</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-sm-6'>
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        25<br></br> Nov
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        The SLII Experience™ - Face to Face
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-th-large'>DCA Batch 43</i></li>
+                                            <li><i className='fa fa-clock-o'>10:00 am to 4:00 pm</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-sm-6'>
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        27<br></br> Jan
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        Everything DISC - Virtual Course Preview
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-th-large'>DCA Batch 44</i></li>
+                                            <li><i className='fa fa-clock-o'>10:00 am to 4:00 pm</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-sm-6'>
+                            <div className='innerca' onClick={() => setModalOpen(!modalOpen)}>
+                                <div className='dateside'>
+                                    <div className='datefont'>
+                                        09<br></br> March
+                                    </div>
+                                </div>
+                                <div className='textsidec'>
+                                    <div className='eventi'>
+                                        Everything DISC - Virtual Course Preview
+                                    </div>
+                                    <div className='timed'>
+                                        <ul>
+                                            <li><i className='fa fa-th-large'>DCA Batch 45</i></li>
+                                            <li><i className='fa fa-clock-o'>10:00 am to 4:00 pm</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='booknowside'>
+                                    <a href='#'>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
 
                         {/* <div className='col-sm-12'>
                             <div>
@@ -749,7 +775,7 @@ export default function Home() {
 
 
 
-            <div id='know-more' class="homecon ptt-60">
+            <div id='know-more' class="homecon ptt-60 zinc">
                 <div class="container">
                     <div className='row'>
                         <div className='col-sm-3'>
@@ -769,7 +795,8 @@ export default function Home() {
                             </div> */}
 
                             <div>
-                                <ul>
+                                <h4 className='policyh4'>BYLD Coaching Policies</h4>
+                                <ul className='mpolicyes'>
                                     <li>
                                         <a href='/policies/byld-group-and-coach-candidate-partial-completion-policy'>Partial Completion Policy</a>
                                     </li>
@@ -819,8 +846,8 @@ export default function Home() {
                                                     <option value="Experiential Learning">Experiential Learning</option>
                                                 </select>
                                             </div>
-                                            
-                                          
+
+
                                             <div className="col-lg-12 mb-12">
                                                 <input id="submitbuttonform" className="clientcornnerbtn bord0" type="submit" value="Submit" />
                                             </div>

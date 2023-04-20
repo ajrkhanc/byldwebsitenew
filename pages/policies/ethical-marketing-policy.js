@@ -40,6 +40,23 @@ export default function Home() {
                             <p className='wow fadeInUp delay-0-2s animated animateUP'>Manan Khera</p>
                             <p className='wow fadeInUp delay-0-2s animated animateUP'>Marketing Head BYLD Group</p>
                         </div>
+
+                        <div className='col-sm-12'>
+                        <ul className='mpolicyesc'>
+                                    <li>
+                                        <a href='/policies/byld-group-and-coach-candidate-partial-completion-policy'>Partial Completion Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/byld-group-complaint-and-grievance-policy'>Grievance Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/disability-and-discrimination-statement'>Disability & Discrimination Statement</a>
+                                    </li>
+                                    <li>
+                                        <a href='/policies/enrollment-agreement-for-actp-program-offered'>Enrollment Agreement Policy</a>
+                                    </li>
+                                </ul>
+                        </div>
                     
                     </div>
                 </div>
