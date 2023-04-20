@@ -548,7 +548,7 @@ export default function Home() {
                                 </div>
                                 <div className='textsidec'>
                                     <div className='eventi'>
-                                        Virtual Training Apollo3
+                                    ICF Coach Certification 
                                     </div>
                                     <div className='timed'>
                                         <ul>
@@ -574,7 +574,7 @@ export default function Home() {
                                 </div>
                                 <div className='textsidec'>
                                     <div className='eventi'>
-                                        Harnessing Creative Intelligence
+                                    ICF Coach Certification 
                                     </div>
                                     <div className='timed'>
                                         <ul>
@@ -599,7 +599,7 @@ export default function Home() {
                                 </div>
                                 <div className='textsidec'>
                                     <div className='eventi'>
-                                        Five Behaviour - Course Preview
+                                    ICF Coach Certification 
                                     </div>
                                     <div className='timed'>
                                         <ul>
@@ -624,7 +624,7 @@ export default function Home() {
                                 </div>
                                 <div className='textsidec'>
                                     <div className='eventi'>
-                                        DISC Train-the-Trainer (TTT)
+                                    ICF Coach Certification
                                     </div>
                                     <div className='timed'>
                                         <ul>
@@ -649,7 +649,7 @@ export default function Home() {
                                 </div>
                                 <div className='textsidec'>
                                     <div className='eventi'>
-                                        The SLII Experience™ - Face to Face
+                                    ICF Coach Certification
                                     </div>
                                     <div className='timed'>
                                         <ul>
@@ -673,7 +673,7 @@ export default function Home() {
                                 </div>
                                 <div className='textsidec'>
                                     <div className='eventi'>
-                                        Everything DISC - Virtual Course Preview
+                                    ICF Coach Certification
                                     </div>
                                     <div className='timed'>
                                         <ul>
@@ -698,7 +698,7 @@ export default function Home() {
                                 </div>
                                 <div className='textsidec'>
                                     <div className='eventi'>
-                                        Everything DISC - Virtual Course Preview
+                                    ICF Coach Certification
                                     </div>
                                     <div className='timed'>
                                         <ul>
