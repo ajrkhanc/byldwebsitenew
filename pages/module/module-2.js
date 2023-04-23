@@ -19,7 +19,7 @@ export default function Home() {
             <Head>
                 <title>Coaching for Performance Module II</title>
                 <meta name="description" content="We will learn about ethical practice and coach values, and gain insights on how to navigate ethical dilemmas with integrity. Additionally, you will learn about the road to becoming an accredited coach, which is essential for gaining credibility and recognition in the coaching industry" />
-                <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
+                <link rel="stylesheet" type="text/css" href="/assets/css/cohomemodule.css" />
             </Head>
 
 

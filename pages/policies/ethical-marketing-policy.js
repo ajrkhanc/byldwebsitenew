@@ -19,7 +19,7 @@ export default function Home() {
             <Head>
                 <title>Ethical Marketing Policy</title>
                 <meta name="description" content="BYLD Group Statement of Ethical Marketing Practice"/>
-                <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
+                <link rel="stylesheet" type="text/css" href="/assets/css/cohomemodule.css" />
             </Head>
 
 
@@ -35,10 +35,6 @@ export default function Home() {
                             <p className='wow fadeInUp delay-0-2s animated animateUP'>
                             More generally, we value integrity and transparency in all our marketing and advertising efforts, and we are committed to providing a positive experience to all of our customers and stakeholders.
                             </p>
-
-                            <p className='wow fadeInUp delay-0-2s animated animateUP'>Signed</p>
-                            <p className='wow fadeInUp delay-0-2s animated animateUP'>Manan Khera</p>
-                            <p className='wow fadeInUp delay-0-2s animated animateUP'>Marketing Head BYLD Group</p>
                         </div>
 
                         <div className='col-sm-12'>
@@ -54,6 +50,9 @@ export default function Home() {
                                     </li>
                                     <li>
                                         <a href='/policies/enrollment-agreement-for-actp-program-offered'>Enrollment Agreement Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href='/about-us/newpage'>Go Back</a>
                                     </li>
                                 </ul>
                         </div>

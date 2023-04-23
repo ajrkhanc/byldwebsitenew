@@ -192,6 +192,19 @@ export default function Home() {
                                 <input type="text" name="designation" placeholder="Designation*" required />
                             </div>
 
+                            <div className="col-sm-12 mb-12">
+                                <select>
+                                    <option value=''>Pick up any Slot*</option>
+                                    <option value='22 April 2023'>22 April 2023</option>
+                                    <option value='10 June 2023'>10 June 2023</option>
+                                    <option value='29 July 2023'>29 July 2023</option>
+                                    <option value='16 September 2023'>16 September 2023</option>
+                                    <option value='25 November 2023'>25 November 2023</option>
+                                    <option value='27 January 2024'>27 January 2024</option>
+                                    <option value='09 March 2024'>09 March 2024</option>
+                                </select>
+                            </div>
+
 
                             <div className="col-sm-12 d-none">
                                 <input type="text" name="Business_Entity" value="ICF" required />
@@ -223,7 +236,7 @@ export default function Home() {
                                     People are the best source of solutions to their own problems and aspirations. Coach is there to help and accelerate the journey to destination or solution.
                                 </span>
                                 <div className="btn-part ptt-10 pbb-30 wow fadeInUp delay-0-2s animated animateUP">
-                                    <Link href="#"><a className="readon2">Download Brochure <div className="btn-arrow"></div></a></Link>
+                                    <a className="readon2" href="/assets/pdf/BYLD-ACTP-Level-Brochure.pdf" download>Download Brochure <div className="btn-arrow ddc"></div></a>
                                 </div>
                             </div>
                         </div>
@@ -559,7 +572,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
+                                <a>Book Now</a>
                                 </div>
                             </div>
 
@@ -585,7 +598,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
+                                <a>Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -610,7 +623,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
+                                <a>Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -635,7 +648,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
+                                <a>Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -660,7 +673,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
+                                <a>Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -684,7 +697,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
+                                <a>Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -709,7 +722,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='booknowside'>
-                                    <a href='#'>Book Now</a>
+                                    <a>Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -789,13 +802,48 @@ export default function Home() {
                     </div>
 
                     <div class="row y-middle">
-                        <div class="col-lg-5 md-mb-50">
-                            {/* <div class="contact-img wow fadeInUp delay-0-2s animated animateUP">
+                        <div class="col-lg-4 md-mb-50">
+                            <div class="contact-img wow fadeInUp delay-0-2s animated animateUP">
                                 <img src="/assets/img/homeb/contactl.png" alt="Contact" />
-                            </div> */}
+                            </div>
 
-                            <div>
-                                <h4 className='policyh4'>BYLD Coaching Policies</h4>
+                            
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="contact-wrap">
+                                <div className="bannerform wow fadeInUp delay-0-2s animated animateUP">
+                                    <form id="contact-form" className='clientcornner ptt-40 pbb-20' onSubmit={registerUser}>
+                                        <div className="row">
+                                            <div className="col-sm-6 mb-12">
+                                                <input className='borrr' type="text" name="name" placeholder="Enter Name*" required />
+                                            </div>
+
+                                            <div className="col-sm-6 mb-12">
+                                                <input className='borrr' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                            </div>
+                                            <div className="col-sm-12 mb-12">
+                                                <input className='borrr' type="email" name="email" placeholder="Professional/Personal Email Address*" required />
+                                            </div>
+                                            <div className="col-sm-12 mb-12">
+                                                <input className='borrr' type="text" name="organization" placeholder="Organization" />
+                                            </div>
+                                            <div className="col-sm-12 mb-12">
+                                                <input className='borrr' type="text" name="designation" placeholder="Designation*" required />
+                                            </div>
+                                            
+                                            <div className="col-lg-12 mb-12">
+                                                <input id="submitbuttonform" className="clientcornnerbtn bord0" type="submit" value="Submit" />
+                                            </div>
+                                            <p id="showlabel" style={{ display: "none" }}></p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='col-lg-3'>
+                        <div>
+                                <h4 className='policyh4'>Policies</h4>
                                 <ul className='mpolicyes'>
                                     <li>
                                         <a href='/policies/byld-group-and-coach-candidate-partial-completion-policy'>Partial Completion Policy</a>
@@ -813,48 +861,6 @@ export default function Home() {
                                         <a href='/policies/ethical-marketing-policy'>Ethical Marketing Practice</a>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="contact-wrap">
-                                <div className="bannerform wow fadeInUp delay-0-2s animated animateUP">
-                                    <form id="contact-form" className='clientcornner ptt-40 pbb-20' onSubmit={registerUser}>
-                                        <div className="row">
-                                            <div className="col-sm-6 mb-12">
-                                                <input className='borrr' type="text" name="name" placeholder="Enter Name*" required />
-                                            </div>
-
-                                            <div className="col-sm-6 mb-12">
-                                                <input className='borrr' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
-                                            </div>
-                                            <div className="col-sm-6 mb-12">
-                                                <input className='borrr' type="email" name="email" placeholder="Professional/Personal Email Address*" required />
-                                            </div>
-                                            <div className="col-sm-6 mb-12">
-                                                <input className='borrr' type="text" name="organization" placeholder="Organization" />
-                                            </div>
-                                            <div className="col-sm-12 mb-12">
-                                                <input className='borrr' type="text" name="designation" placeholder="Designation*" required />
-                                            </div>
-                                            <div className="col-sm-12 mb-12">
-                                                <select name="product" required>
-                                                    <option value="">Product / Services</option>
-                                                    <option value="Sales and Services">Sales and Services</option>
-                                                    <option value="Coaching">Coaching</option>
-                                                    <option value="Assessments">Assessments</option>
-                                                    <option value="Leadership and Performance">Leadership and Performance</option>
-                                                    <option value="Experiential Learning">Experiential Learning</option>
-                                                </select>
-                                            </div>
-
-
-                                            <div className="col-lg-12 mb-12">
-                                                <input id="submitbuttonform" className="clientcornnerbtn bord0" type="submit" value="Submit" />
-                                            </div>
-                                            <p id="showlabel" style={{ display: "none" }}></p>
-                                        </div>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>

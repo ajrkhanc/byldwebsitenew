@@ -1106,7 +1106,7 @@ h6 {
 
 .mpolicyes li{
     float: left;
-    padding: 31px 7px;
+    padding: 20px 7px;
 }
 
 .mpolicyes li a{
@@ -1121,6 +1121,16 @@ h6 {
     font-weight: 500;
     font-size: 30px;    
     padding-left: 25px;
+}
+
+.ddc:before{
+    transform: rotate(90deg) !important;
+    top: -45% !important;
+}
+
+.ddc::after{
+    transform: rotate(90deg) !important;
+    top: -45% !important;
 }
 
 /* Policyes */
@@ -1155,5 +1165,19 @@ h6 {
 }
 
 .policyeslist p{
-    font-size: 15px;
+    font-size: 18px;
     line-height: 32px;}
+
+
+    .mpolicyesc li{
+        float: left;
+        padding: 31px 7px;
+    }
+    
+    .mpolicyesc li a{
+        background: #3373ae;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 28px;
+        font-size: 14px;
+    }

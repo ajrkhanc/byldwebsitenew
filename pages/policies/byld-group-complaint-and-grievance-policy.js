@@ -19,7 +19,7 @@ export default function Home() {
             <Head>
                 <title>BYLD Group and Coach Candidate Partial Completion Policy</title>
                 <meta name="description" content="BYLD Group and Coach Candidate Partial Completion Policy"/>
-                <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
+                <link rel="stylesheet" type="text/css" href="/assets/css/cohomemodule.css" />
             </Head>
 
 
@@ -95,6 +95,9 @@ export default function Home() {
                                     </li>
                                     <li>
                                         <a href='/policies/ethical-marketing-policy'>Ethical Marketing Practice</a>
+                                    </li>
+                                    <li>
+                                        <a href='/about-us/newpage'>Go Back</a>
                                     </li>
                                 </ul>
                         </div>

@@ -19,7 +19,7 @@ export default function Home() {
             <Head>
                 <title>Coaching Foundation Module 1</title>
                 <meta name="description" content="By completing Module II, you will gain a comprehensive set of coaching skills and techniques that will allow you to provide an exceptional coaching experience for your clients. " />
-                <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
+                <link rel="stylesheet" type="text/css" href="/assets/css/cohomemodule.css" />
             </Head>
 
 

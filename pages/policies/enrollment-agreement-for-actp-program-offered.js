@@ -19,7 +19,7 @@ export default function Home() {
             <Head>
                 <title>ENROLLMENT AGREEMENT for ACTP Program offered by BYLD Group</title>
                 <meta name="description" content="ENROLLMENT AGREEMENT for ACTP Program offered by BYLD Group" />
-                <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
+                <link rel="stylesheet" type="text/css" href="/assets/css/cohomemodule.css" />
             </Head>
 
 
@@ -131,6 +131,9 @@ export default function Home() {
                                     </li>
                                     <li>
                                         <a href='/policies/ethical-marketing-policy'>Ethical Marketing Practice</a>
+                                    </li>
+                                    <li>
+                                        <a href='/about-us/newpage'>Go Back</a>
                                     </li>
                                 </ul>
                         </div>
