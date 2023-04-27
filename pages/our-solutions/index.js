@@ -170,7 +170,7 @@ export default function Home() {
                             <div className='row'>
                                 <div className='col-sm-6'>
                                     <div>
-                                        <img src='https://img.freepik.com/free-photo/mix-raced-team-adult-students-wearing-vr-goggles_74855-2047.jpg' />
+                                    <img src='/assets/img/new/exl.jpg'/>
                                     </div>
                                 </div>
                                 <div className='col-sm-6'>
@@ -232,7 +232,7 @@ export default function Home() {
 
                                 <div className='col-sm-6'>
                                     <div>
-                                        <img src='https://img.freepik.com/free-photo/mix-raced-team-adult-students-wearing-vr-goggles_74855-2047.jpg' />
+                                    <img src='/assets/img/new/lpd.jpg'/>
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@ export default function Home() {
                             <div className='row'>
                                 <div className='col-sm-6'>
                                     <div>
-                                        <img src='https://img.freepik.com/free-photo/mix-raced-team-adult-students-wearing-vr-goggles_74855-2047.jpg' />
+                                    <img src='/assets/img/new/ass.jpg'/>
                                     </div>
                                 </div>
                                 <div className='col-sm-6'>
@@ -311,7 +311,7 @@ export default function Home() {
 
                                 <div className='col-sm-6'>
                                     <div>
-                                        <img src='https://img.freepik.com/free-photo/mix-raced-team-adult-students-wearing-vr-goggles_74855-2047.jpg' />
+                                    <img src='/assets/img/new/bespok.jpg'/>
                                     </div>
                                 </div>
                             </div>
@@ -328,7 +328,7 @@ export default function Home() {
                             <div className='row'>
                                 <div className='col-sm-6'>
                                     <div>
-                                        <img src='https://img.freepik.com/free-photo/mix-raced-team-adult-students-wearing-vr-goggles_74855-2047.jpg' />
+                                    <img src='/assets/img/new/coachinng.jpg'/>
                                     </div>
                                 </div>
                                 <div className='col-sm-6'>
@@ -373,7 +373,7 @@ export default function Home() {
                                         <div className='contentsolu'>
                                             <h3>Staffing & Search</h3>
                                             <p className='text-justify'>
-                                            With the advent of technology and automation, more and more companies are focusing on digitizing their processes. This is where we combine technology and staffing services to provide a one-stop solution to manage recruitment, training, payrolls, payments, and automate complete employee lifecycle management through a single tool.
+                                            With the advent of technology and automation, more and more companies are focusing on digitizing their processes. This is where we combine technology and staffing services to provide a one-stop solution to manage recruitment, training, payrolls, payments, and automate complete employee...
                                             </p>
                                         </div>
 
@@ -390,7 +390,7 @@ export default function Home() {
 
                                 <div className='col-sm-6'>
                                     <div>
-                                        <img src='https://img.freepik.com/free-photo/mix-raced-team-adult-students-wearing-vr-goggles_74855-2047.jpg' />
+                                    <img src='/assets/img/new/staffingn.jpg'/>
                                     </div>
                                 </div>
                             </div>
