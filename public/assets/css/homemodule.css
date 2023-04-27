@@ -1138,3 +1138,53 @@ h6 {
         border-radius: 28px;
         font-size: 14px;
     }
+
+    /* Contact Us */
+.contactbrud {
+    background-image: url(/assets/img/new/banner/contact-us.jpg);
+}
+
+.contactusali{
+    display: flex;
+    padding: 20px 0px;
+}
+.contacticonc img{
+    max-width: 50px;
+    min-width: 50px;
+}
+.contacttext{
+    padding-left: 10px;
+}
+.contacttext h4{
+    margin: 0px;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.contacttext p{
+    margin: 0px;}
+
+.zinc {
+    position: relative;
+}
+
+    /* Our Solutions */
+    .solutionsbrud {
+        background-image: url(/assets/img/new/banner/our-solutions.jpg);
+    }
+
+    .btnsolu{
+        display: flex;
+    }
+.ennc{
+    margin-right: 15px;
+}
+    .ennc .readon2{
+        background: #3373af;
+    }
+
+    .btnsolu .readon2 {
+        padding: 10px 15px 10px !important;}
+
+.bgwhitei{
+    background-color: #ffff !important;
+}

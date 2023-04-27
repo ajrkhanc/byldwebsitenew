@@ -170,7 +170,7 @@ export default function Home() {
                         <div className='col-sm-8'>
                             <div className='row'>
                                 <div className='col-sm-6'>
-                                    <div className='innerteamc'>
+                                    <div className='innerteamc mbb-70'>
                                         <div className='teamimgc1'>
                                             <a target="_blank" href="/yogesh-sood"><img src="/assets/img/team/yogesh-sood.jpg" alt="" /></a>
                                         </div>
@@ -192,7 +192,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='col-sm-6'>
-                                    <div className='innerteamc mtt-80'>
+                                    <div className='innerteamc mbb-70'>
                                         <div className='teamimgc1'>
                                             <a href="#"><img src="/assets/img/team/sandeep.jpg" alt="" /></a>
                                         </div>
@@ -237,7 +237,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='col-sm-6'>
-                                    <div className='innerteamc mtt-80'>
+                                    <div className='innerteamc'>
                                         <div className='teamimgc1'>
                                             <a href="#"><img src="/assets/img/team/nishit.jpg" alt="" /></a>
                                         </div>

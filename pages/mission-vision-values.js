@@ -92,7 +92,7 @@ export default function Home() {
 
 
       <Head>
-        <title>Mission Vision &amp; Values - BYLD Group</title>
+        <title>Mission Vision & Values - BYLD Group</title>
         <meta name="description" content="Founded in the year 1998, BYLD is the largest group in the South Asian region, offering technology-enabled HR and business productivity solutions. We have served 5,00,000+ individuals, worked with more than 50% of the Fortune 500 and over 60% of the Business World top 1000 companies." />
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
         <script
@@ -215,6 +215,8 @@ export default function Home() {
                   </div>
                 </div>
 
+
+<div className='col-sm-2'></div>
                 <div className='col-sm-4 missionslrowbr'>
                   <div className='solutionboxmission wow fadeInUp delay-0-2s animated animateUP'>
                     <div className='iconorh'>
