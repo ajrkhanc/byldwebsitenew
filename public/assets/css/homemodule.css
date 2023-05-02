@@ -13,6 +13,9 @@
     box-shadow: none;
 }
 
+.zinc {
+    position: relative;
+}
 
 
 body {
@@ -1188,3 +1191,70 @@ h6 {
 .bgwhitei{
     background-color: #ffff !important;
 }
+
+/* Careers */
+.faqss .accordion__button {
+    background-color: #3373af;
+    color: #fff;
+    font-size: 24px;
+}
+.faqss .accordion__button:hover {
+    background-color: #e88026;
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: "\f067" !important;
+  
+    margin-right: 0px !important;
+    border-bottom: 0px solid currentColor !important;
+    border-right: 0px solid currentColor !important;
+    transform: rotate(0deg) !important;
+    float: right;
+    font-family: FontAwesome;
+    background: white;
+    width: 28px !important;
+    height: 28px !important;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50%;
+    color: #3373af;
+    margin-top: 8px;
+  }
+  
+  .accordion__button[aria-expanded='true']::before{
+    content: "\f068" !important;
+  }
+
+  .cafaq{
+    padding-bottom: 20px;
+  }
+  .cafaq h4{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2a6db5;
+    padding-bottom: 5px;
+  }
+  .cafaq p{
+    margin: 0px;
+  }
+
+  .cabtnc1{
+    font-size: 17px;
+    color: #000;
+    border-bottom: 2px solid #000;
+  }
+ 
+  .cabtnc2{
+    font-size: 17px;
+    color: #e88026;
+    border-bottom: 2px solid #e88026;
+    margin-left: 20px;
+  }
+
+  .caapplybtn{
+    padding-top: 20px;
+  }
