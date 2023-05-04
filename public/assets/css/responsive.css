@@ -39,10 +39,10 @@
 
 @media only screen and (max-width: 1366px) { 
     .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li {
-        margin-right: 17px;
+        margin-right: 10px;
     }
     .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a {
-        font-size: 14px;
+        font-size: 13px;
     } 
     .full-width-header .rs-header .expand-btn-inner ul .btn-quote a {
         padding: 10px 18px;

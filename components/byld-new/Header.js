@@ -88,7 +88,7 @@ export default function Header() {
                                                         <a href="/">HOME</a>
                                                     </li> */}
                                                     <li className="menu-item-has-children">
-                                                        <a href="#">OUR SOLUTIONS</a>
+                                                    <a href="/our-solutions">OUR SOLUTIONS</a>
                                                         <ul className="sub-menu">
                                                             <li className="last-item menu-item-has-children">
                                                                 <a href="/our-solutions/experiential-learning">Experiential Learning</a>
@@ -145,10 +145,13 @@ export default function Header() {
                                                                     <li className=''><a target="_blank" href="https://www.yomatechnologies.in/">YOMA Technologies</a></li>
                                                                 </ul>
                                                             </li>
-
-
+                                                            <li><a href="/join-our-partner-network">Partner Network</a></li>
                                                         </ul>
                                                     </li>
+                                                    <li>
+                                                        <a href="/cp">CONSULTING PRACTICE</a>
+                                                    </li>
+                                                    
                                                     <li className="menu-item-has-children">
                                                         <a href="/about-us">ABOUT US</a>
                                                         <ul className="sub-menu">
@@ -282,7 +285,7 @@ export default function Header() {
                                 <a href="/">HOME</a>
                             </li> */}
                             <li className="menu-item-has-children">
-                                <a href="#">OUR SOLUTIONS</a>
+                            <a href="/our-solutions">OUR SOLUTIONS</a>
                                 <ul className="sub-menu">
                                     <li className="last-item menu-item-has-children">
                                         <a href="/our-solutions/experiential-learning">Experiential Learning</a>

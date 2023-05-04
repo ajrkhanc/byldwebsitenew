@@ -69,7 +69,7 @@ export default function Header() {
                                             <nav className="rs-menu hidden-md">
                                                 <ul className="nav-menu">
                                                     <li className="menu-item-has-children">
-                                                        <a href="#">OUR SOLUTIONS</a>
+                                                        <a href="/our-solutions">OUR SOLUTIONS</a>
                                                         <ul className="sub-menu">
                                                             <li className="last-item menu-item-has-children">
                                                                 <a href="/our-solutions/experiential-learning">Experiential Learning</a>
@@ -257,7 +257,7 @@ export default function Header() {
                         </div>
                         <ul className="nav-menu">
                             <li className="menu-item-has-children">
-                                <a href="#">OUR SOLUTIONS</a>
+                            <a href="/our-solutions">OUR SOLUTIONS</a>
                                 <ul className="sub-menu">
                                     <li className="last-item menu-item-has-children">
                                         <a href="/our-solutions/experiential-learning">Experiential Learning</a>

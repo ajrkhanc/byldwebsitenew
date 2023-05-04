@@ -56,26 +56,44 @@ export default class LightboxExample extends Component {
         <Head>
             <title>Events Gallery - BYLD Group</title>
             <meta name="description" content="BYLD is a pioneering name in leadership development, corporate training, assessment, and staffing. Founded in 1998, the company is the largest group in South Asia offering HR and business productivity solutions for individuals, teams, and organizations. It has also served 300 of 500 Fortune companies."/> 
+            <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
           </Head>
-            <div className="rs-services">
-            <div className="container-full">
-                <div className="row y-middle">
-                    <div className="col-lg-12">
-                      <img className="img100" src="/assets/img/banner/awards-accolades.jpg"/>
-                    </div>         
+
+          <div class="rs-breadcrumbs eventsbg">
+                <div class="container">
+                    <div class="breadcrumb-container theme1 wow fadeInUp delay-0-2s animated animateUP">
+                        <ul>
+                            <li>
+                                <a href="/">
+                                    <span>Home</span>
+                                </a>
+                                <span class="separator">/</span>
+                            </li>
+                            <li>
+                                <a href="/events-gallery">
+                                    <span>Events</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col-sm-8'>
+                            <div class="breadcrumbs-inner">                                
+                                <h1 class="page-title wow fadeInUp delay-0-2s animated animateUP">
+                                Events
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
+         
 
-            <div className="pt-50 pbb-50">
+            <div className="pt-50 pbb-50 positionrelative">
                 <div className="container">
-                    <div className="row">
-                        <div className='col-sm-12'>
-                            <div className="sec-title3 mbb-35">
-                            <h4 className="countertoph2 text-center font30">This is the 2021-2022 Annual Conference</h4>
-                            <div className="heading-border-line center-style"></div>
-                        </div>
-                        </div>
+                    <div className="row zindx">
+                       
                         <div className='col-sm-4'>
                             <div className='awardsarea'>
                                 <img onClick={() => this.setState({ isOpen: true, photoIndex: 0, })} src="/assets/img/events/DSC02240.jpg" alt="Awards"/>
@@ -273,7 +291,14 @@ export default class LightboxExample extends Component {
                                 <img onClick={() => this.setState({ isOpen: true, photoIndex: 31, })} src="/assets/img/events/7R3A8462.jpg" alt="Awards"/>
                             </div>
                         </div>
+                    </div>
 
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
                 </div>                
             </div>

@@ -1659,7 +1659,7 @@ blockquote cite:before {
   color: #2A6DB5;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.menu-item-has-children > a {
-  padding-right: 17px;
+  padding-right: 12px;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.menu-item-has-children > a:before {
   content: "+";
@@ -2745,7 +2745,7 @@ body .search-modal .close:hover {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center center !important;
-  height: 600px;
+ min-height: 490px;
 }
 .rs-breadcrumbs .breadcrumbs-inner {
   padding: 70px 0 30px;

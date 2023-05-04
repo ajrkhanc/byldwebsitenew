@@ -286,8 +286,14 @@ h6 {
     overflow: hidden;
 }
 
+.positionrelative {
+    position: relative;
+    overflow: hidden;
+}
+
 .zindx {
     z-index: 9;
+    position: relative;
 }
 
 .solutionbox {
@@ -1258,3 +1264,35 @@ h6 {
   .caapplybtn{
     padding-top: 20px;
   }
+
+
+  /* Client Corner*/
+  .clvideopa{
+padding: 10px 10px;
+  }
+
+  .clvideopa .innervideoshd{
+    padding-bottom: 5px;
+  }
+
+  /* Awards */
+  .awardbg {
+    background-image: url(/assets/img/new/banner/awards.jpg);
+}
+
+.eventsbg{
+    background-image: url(/assets/img/new/banner/events.jpg);
+}
+
+.blogsbg{
+    background-image: url(/assets/img/new/banner/blogs.jpg);
+}
+
+  /* webinars */
+  .webinarsbg{
+    background-image: url(/assets/img/new/banner/webinars.jpg);
+}
+
+.workshopsbg{
+    background-image: url(/assets/img/new/banner/workshops.jpg);
+}

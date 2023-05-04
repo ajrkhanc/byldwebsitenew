@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import  moment from 'moment'
+import moment from 'moment'
 
 export async function getServerSideProps() {
     const res = await fetch('https://byldblogs.vercel.app/api/posts')
@@ -9,14 +9,14 @@ export async function getServerSideProps() {
     const cats = await cat.json()
 
     return {
-      props: {
-        posts, 
-        cats,    
-      },
+        props: {
+            posts,
+            cats,
+        },
     }
-  }
+}
 
-export default function Blog({posts, cats}){
+export default function Blog({ posts, cats }) {
 
     const PopupRegisterd = async event => {
         event.preventDefault()
@@ -31,30 +31,30 @@ export default function Blog({posts, cats}){
             if (xhttp.readyState == 4) {
                 if (xhttp.status == 200) {
                     document.getElementById("showlabel1popup").innerHTML = "Thank you for your details. Check your inbox for more details.";
-  
+
                     document.getElementById("showlabel1popup").style.display = "block";
                     setTimeout(function () {
-                    document.getElementById("popuphidec").style.display = "none";
-                }, 3000);
-  
+                        document.getElementById("popuphidec").style.display = "none";
+                    }, 3000);
+
                 } else {
                     alert('There was a problem with the request.');
                 }
             }
         };
         xhttp.send("your-email=" + event.target.fmail.value)
-  
+
     }
 
-    return(
+    return (
         <>
-        <Head>
-            <title>Blog - BYLD Group</title>
-            <meta name="description" content=""/> 
-            <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
-            <script
-            dangerouslySetInnerHTML={{
-              __html: `
+            <Head>
+                <title>Blog - BYLD Group</title>
+                <meta name="description" content="" />
+                <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
               $(function() {
                var overlay = $('<div id="overlay"></div>');
                overlay.delay();
@@ -72,128 +72,169 @@ export default function Blog({posts, cats}){
                });
              });
           `,
-            }}
-          />
-        </Head>
-        <div className="rs-inner-blog ptt-40 pbb-50">
+                    }}
+                />
+
+                <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
+            </Head>
+
+            <div class="rs-breadcrumbs blogsbg">
+                <div class="container">
+                    <div class="breadcrumb-container theme1 wow fadeInUp delay-0-2s animated animateUP">
+                        <ul>
+                            <li>
+                                <a href="/">
+                                    <span>Home</span>
+                                </a>
+                                <span class="separator">/</span>
+                            </li>
+                            <li>
+                                <a href="/blog">
+                                    <span>Blogs</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col-sm-8'>
+                            <div class="breadcrumbs-inner">
+                                <h1 class="page-title wow fadeInUp delay-0-2s animated animateUP">
+                                    BYLD Blogs
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="rs-inner-blog ptt-40 pbb-50 positionrelative">
                 <div className="container-fluid">
-                    <div className="row">                        
+                    <div className="row zindx">
                         <div className="col-md-8 col-sm-12">
                             <div className="row">
-                            {
-                                        posts.map((getpost)=>{
-                                            return(
-                                <div className="col-md-6 mbb-20">                                    
+                                {
+                                    posts.map((getpost) => {
+                                        return (
+                                            <div className="col-md-6 mbb-20">
                                                 <div className="blog-item">
-                                        <div className="blog-img">
-                                            <a href={getpost.posturl}><img src={getpost.ImageURL} alt={getpost.ImageAlt}/></a>
-                                        </div>
-                                        <div className="blog-content">
-                                            <h3 className="blog-title"><a href={getpost.posturl}>{getpost.Title}</a></h3>
-                                            <div className="blog-meta">
-                                                <ul className="btm-cate">
-                                                    <li>
-                                                        <div className="blog-date">
-                                                            <i className="fa fa-calendar-check-o"></i> {moment(getpost.ModifiedDate).format('MMMM DD Y')}
+                                                    <div className="blog-img">
+                                                        <a href={getpost.posturl}><img src={getpost.ImageURL} alt={getpost.ImageAlt} /></a>
+                                                    </div>
+                                                    <div className="blog-content">
+                                                        <h3 className="blog-title"><a href={getpost.posturl}>{getpost.Title}</a></h3>
+                                                        <div className="blog-meta">
+                                                            <ul className="btm-cate">
+                                                                <li>
+                                                                    <div className="blog-date">
+                                                                        <i className="fa fa-calendar-check-o"></i> {moment(getpost.ModifiedDate).format('MMMM DD Y')}
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div className="author">
+                                                                        <i className="fa fa-user-o"></i> {getpost.AuthorFullname}
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
                                                         </div>
-                                                    </li>
-                                                    <li>
-                                                        <div className="author">
-                                                            <i className="fa fa-user-o"></i> {getpost.AuthorFullname}  
+                                                        <div className="blog-button">
+                                                            <a className="blog-btn" href={getpost.posturl}>Read More</a>
                                                         </div>
-                                                    </li> 
-                                                </ul>
-                                            </div>                                            
-                                            <div className="blog-button">
-                                                <a className="blog-btn" href={getpost.posturl}>Read More</a>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>                                            
-                                </div>
-                                );
-                            })
-                        }
-                                
+                                        );
+                                    })
+                                }
+
                             </div>
                         </div>
 
                         <div className="col-md-4 col-sm-12">
-                            <div className="widget-area">                                
+                            <div className="widget-area">
                                 <div className="recent-posts mbb-20">
                                     <div className="widget-title">
                                         <h3 className="title">Recent Posts</h3>
                                     </div>
                                     {
-                                posts.slice(0, 5).map((getpost) => {
-                                return (
-                                <div class="recent-post-widget">
-                                    <div class="post-img">
-                                        <a href={`/${getpost.posturl}`}>
-                                        <img src={getpost.ImageURL} alt={getpost.ImageAlt} />
-                                        </a>
-                                    </div>
-                                    <div class="post-desc">
-                                        <a href={`/${getpost.posturl}`}>{getpost.Title}</a>
-                                        <span class="date-post"> <i class="fa fa-calendar"></i> {moment(getpost.ModifiedDate).format('DD MMMM Y')} </span>
-                                    </div>
-                                </div>
-                                );
-                                })
-                                }
+                                        posts.slice(0, 5).map((getpost) => {
+                                            return (
+                                                <div class="recent-post-widget">
+                                                    <div class="post-img">
+                                                        <a href={`/${getpost.posturl}`}>
+                                                            <img src={getpost.ImageURL} alt={getpost.ImageAlt} />
+                                                        </a>
+                                                    </div>
+                                                    <div class="post-desc">
+                                                        <a href={`/${getpost.posturl}`}>{getpost.Title}</a>
+                                                        <span class="date-post"> <i class="fa fa-calendar"></i> {moment(getpost.ModifiedDate).format('DD MMMM Y')} </span>
+                                                    </div>
+                                                </div>
+                                            );
+                                        })
+                                    }
                                 </div>
                                 <div className="categories">
                                     <div className="widget-title">
                                         <h3 className="title">Categories</h3>
                                     </div>
                                     <ul>
-                                    {
-                                    cats.map((getcats) => {
-                                    return (
-                                    <li><a href={`/blog/${getcats.Caturl}`}>{getcats.Name}</a></li>
-                                    );
-                                    })
-                                    }
+                                        {
+                                            cats.map((getcats) => {
+                                                return (
+                                                    <li><a href={`/blog/${getcats.Caturl}`}>{getcats.Name}</a></li>
+                                                );
+                                            })
+                                        }
                                     </ul>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                    </div> 
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
+                    </div>
+
                 </div>
             </div>
 
             <div id="popuphidec" class='popup wow fadeInUp delay-0-2s animated animateUP'>
-            <div class='cnt223'>
-            <a href='' class='close popupclose'>X</a>
-               <div className='popupinner'>
-                  <div className='popupimg text-center'>
-                     <img src="/assets/img/popupimg.png"/>
-                     <h3>YOU CAN’T LEARN ANYTHING FROM A POP-UP.</h3>
-                     <p>But you can learn a lot from insightful matters by our experts by getting those delivered to your inbox every month.</p>
-                  </div>
-                  <div className='popupform'>
-                  <form id="contactForm" onSubmit={PopupRegisterd}>
-                        <div className="row clearfix justify-content-center">                              
-                              <div className="col-sm-12">
-                                 <div className="form-group mb-0">                                                                                            
-                                    <input type="email" id="EmailAddress" name="fmail" className="form-control popupsus" placeholder="Enter Your Email" required />
-                                 </div>
-                              </div>
+                <div class='cnt223'>
+                    <a href='' class='close popupclose'>X</a>
+                    <div className='popupinner'>
+                        <div className='popupimg text-center'>
+                            <img src="/assets/img/popupimg.png" />
+                            <h3>YOU CAN’T LEARN ANYTHING FROM A POP-UP.</h3>
+                            <p>But you can learn a lot from insightful matters by our experts by getting those delivered to your inbox every month.</p>
+                        </div>
+                        <div className='popupform'>
+                            <form id="contactForm" onSubmit={PopupRegisterd}>
+                                <div className="row clearfix justify-content-center">
+                                    <div className="col-sm-12">
+                                        <div className="form-group mb-0">
+                                            <input type="email" id="EmailAddress" name="fmail" className="form-control popupsus" placeholder="Enter Your Email" required />
+                                        </div>
+                                    </div>
 
-                              <div className="col-sm-12">
-                              <div className="form-group mb-0">
-                                 <input id="submitbuttonformpopup" type="submit" className="theme-btn btnwidth fullbtn" value="SEND ME INSIGHTS"/>
-                              </div>
-                              <div className="clearfix"></div>
-                              <p id="showlabel1popup" className="submitpopup" style={{ display: "none" }}></p>
+                                    <div className="col-sm-12">
+                                        <div className="form-group mb-0">
+                                            <input id="submitbuttonformpopup" type="submit" className="theme-btn btnwidth fullbtn" value="SEND ME INSIGHTS" />
+                                        </div>
+                                        <div className="clearfix"></div>
+                                        <p id="showlabel1popup" className="submitpopup" style={{ display: "none" }}></p>
+                                    </div>
+
+                                </div>
+                            </form>
                         </div>
-                        
-                        </div>
-                     </form>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
         </>
     )
 }
