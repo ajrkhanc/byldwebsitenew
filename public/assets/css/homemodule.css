@@ -1508,8 +1508,16 @@ padding: 10px 10px;
 }
 
 .cpteambg {
-    background-image: url(/assets/img/new/banner/shiny-night-city.png);
+    background-image: url(/assets/img/new/banner/teambg2.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+}
+
+.cpteambg .teamimgc1{
+    margin-top: 0px !important;
+}
+
+.cpteambg .team-info .post{
+    font-size: 17px !important;
 }

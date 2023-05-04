@@ -527,9 +527,8 @@ export default function JoinOurPartnerNetworkLP() {
 
             <section id="rs-team" className='style2 solutionrow ptt-60 pbb-60 cpteambg'>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-sm-2'></div>
-                        <div className='col-sm-8'>
+                    <div className='row'>                       
+                        <div className='col-sm-12 text-center'>
                             <h2 class="title pbb-100 mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP pbb-30">Know Our Consulting Practitioners (CPs):</h2>
                         </div>
                     </div>
