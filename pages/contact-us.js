@@ -100,9 +100,8 @@ export default function ContactUs() {
 
             <section className='aboutmap ptt-50 pbb-40 zinc'>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-sm-7'>
-                            <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP mbb-30">Contact us</h2>
+                    <div className='row align-items-center'>
+                        <div className='col-sm-7'>                            
                             <div className='row'>
                                 <div className='col-sm-12'>
                                     <div className='contactusali wow fadeInUp delay-0-2s animated animateUP'>
