@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
     font-family: myFirstFont;
     font-family: "BwDarius";
     src: url("../fonts/BwDariusDEMO-Regular.otf");
-}
+} */
 
 * {
     margin: 0;
@@ -18,14 +18,14 @@
 }
 
 
-body {
+/* body {
     font-family: "BwDarius" !important;
-}
+} */
 
 /* menu */
-.nav-menu a {
+/* .nav-menu a {
     font-family: "BwDarius" !important;
-}
+} */
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a {
     font-size: 14px !important;
@@ -35,7 +35,7 @@ html,
 body {
     font-size: 16px;
     color: #454545;
-    font-family: "BwDarius";
+    /* font-family: "BwDarius"; */
     vertical-align: baseline;
     line-height: 1.7;
     font-weight: 400;
@@ -58,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "BwDarius" !important;
+    /* font-family: "BwDarius" !important; */
     color: #0a0a0a;
     margin: 0 0 26px;
     line-height: 1.2;
@@ -782,6 +782,211 @@ h6 {
 .backwww {
     background-color: #fff;
 }
+
+.circle{
+    border: 3px dashed #3373af;
+    border-radius: 50%;
+    width: 480px;
+    height: 480px;
+    margin: auto;
+    position: relative;
+}
+
+.circle span {
+    font-size: 18px;
+    width: 31px;
+    height: 31px;
+    background-color: #eb7a10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 2px solid  #eb7a10;
+    border-radius: 50%;
+		margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+@media(min-width: 992px){
+    
+
+	.circle .w-logo img{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 241px;
+	}
+
+	
+	.circle > div div {
+		user-select: none;
+    background: #2a6db5;
+    font-weight: 500;
+    font-size: 23px;
+    width: fit-content;
+    padding: 12px 35px;
+    color: #ffffff;
+    position: absolute;
+    transition: 0.3s ease;
+    border-radius: 17px;
+	}
+	.circle > div div:hover{
+		background-color:  #eb7a10;
+		color: #fff;
+	}
+	
+	.circle > div:nth-child(1) span{
+    top: -18px;
+}
+.circle > div:nth-child(2) span{
+    right: 0px;
+    left: auto;
+    margin-top: 133px;
+    top: 0;
+}
+
+.circle > div:nth-child(3) span{
+    right: 30px;
+    left: auto;
+    margin-bottom: 80px;
+    bottom: 0;
+}
+
+.circle > div:nth-child(4) span{
+    right: 180px;
+    left: 0;
+    bottom: 0px;
+}
+.circle > div:nth-child(5) span{
+    right: auto;
+    left: -14px;
+    margin-bottom: 68px;
+    top: 193px;
+}
+
+.circle > div:nth-child(1) div{
+    top: -105px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.circle > div:nth-child(2) div{
+    transform: translate(300px, 75px);
+    right: 37px;
+    top: 32px;
+}
+
+.circle > div:nth-child(3) div{
+    transform: translate(165px, -131px);
+    bottom: -73px;
+    right: 41px;
+}
+
+.circle > div:nth-child(4) div{
+    transform: translate(50px, 95px);
+    bottom: 5px;
+    right: 0;
+    left: 0px;
+}
+.circle > div:nth-child(5) div{
+    transform: translate(-253px, -236px);
+    bottom: 0;
+    left: 0;
+}
+
+
+@media(max-width: 991px){
+.circle >  div div {
+    width: fit-content;
+    padding: 12px 35px;
+    background: #fff;
+    font-weight: 500;
+    color:  #eb7a10;
+    position: absolute;
+    top: -8px;
+}
+
+.circle > div {
+    position: relative;
+}
+
+.circle > div:nth-child(odd) div {right: 0;margin-right: calc(50% + 35px);}
+
+.circle > div:nth-child(even) div {
+    left: 0;
+    margin-left: calc(50% + 35px);
+}
+
+
+	.circle{
+		padding: 40px 0 0px 0;
+	}
+.circle span{
+    position: relative;
+	margin-bottom: 50px;
+}
+.circle .w-logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.circle .w-logo img{
+    margin: auto;
+    max-width: 140px;
+}
+.circle > div div {
+    width: fit-content;
+    padding: 12px 35px;
+    background: #fff;
+    font-weight: 500;
+    color: var(--green);
+}
+.circle > div {
+    position: relative;
+}
+.circle > div:nth-child(even) div {
+    left: 0;
+    margin-left: calc(50% + 35px);
+}
+
+.circle > div:nth-child(odd) div {
+    right: 0;
+    margin-right: calc(50% + 35px);
+}
+}
+
+	@media(max-width: 1024px) and (min-width: 992px){
+		.circle{transform: scale(0.7)}
+	}
+}
+
+.lltextcenter{
+    text-align: center !important;
+}
+
+
+
+.innertxtc p{
+    position: absolute;
+    bottom: 0;
+    top: 180px;
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 328px;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+}
+
 
 /* leadership team */
 .leadershipbrud {

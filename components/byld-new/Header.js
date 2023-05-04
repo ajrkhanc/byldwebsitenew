@@ -157,11 +157,9 @@ export default function Header() {
                                                         <ul className="sub-menu">
                                                             <li><a href="/mission-vision-values">Mission, Vision and Values</a></li>
                                                             <li><a href="/our-leadership-team">Our Leadership Team</a></li>
+                                                            <li><a href="/client-corner">Client Corner</a></li>
                                                         </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a href="/client-corner">CLIENT CORNER</a>
-                                                    </li>
+                                                    </li>                                                    
                                                     <li className="menu-item-has-children">
                                                         <a href="#">EVENTS</a>
                                                         <ul className="sub-menu">
@@ -179,6 +177,9 @@ export default function Header() {
                                                             <li><a href="/events-gallery">Events</a></li>
                                                             <li><a href="/awards-accolades">Awards & Accolades</a></li>
                                                         </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/careers">CAREERS</a>
                                                     </li>
                                                     <li>
                                                         <a href="/contact-us">CONTACT US</a>

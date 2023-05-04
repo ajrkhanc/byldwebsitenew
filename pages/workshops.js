@@ -84,7 +84,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>February  17th, 2023</span>
+                                <span>May  17th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Crucial Life Changing Skills</h3>
@@ -97,7 +97,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>April 11th to 14th, 2023</span>
+                                <span>May 11th to 14th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>DISC Train-the-Trainer (TTT)</h3>
@@ -110,7 +110,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>March 27th - 28th, 2023</span>
+                                <span>June 27th - 28th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>The SLII Experience™ - Face to Face</h3>
@@ -123,7 +123,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>February  17th, 2023</span>
+                                <span>June  17th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>Crucial Life Changing Skills</h3>
@@ -138,7 +138,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>March 27th - 28th, 2023</span>
+                                <span>July 27th - 28th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>The SLII Experience™ - Face to Face</h3>
@@ -151,7 +151,7 @@ export default function Workshops(){
                         <div className='eventsbox'>
                             <div className='eventmiddle'>
                                 <img src="/assets/img/events.jpg" alt="" />
-                                <span>April 11th to 14th, 2023</span>
+                                <span>July 11th to 14th, 2023</span>
                             </div>
                             <div className='eventbottom'>
                                 <h3>DISC Train-the-Trainer (TTT)</h3>

@@ -69,7 +69,7 @@ export default function WebinarsAndProgramExperience() {
                         <div className='col-sm-8'>
                             <div class="breadcrumbs-inner">
                                 <h1 class="page-title wow fadeInUp delay-0-2s animated animateUP">
-                                    Register For Your Complimentary Virtual Events
+                                    Register For Your Complimentary <br></br>Virtual Events
                                 </h1>
                             </div>
                         </div>
@@ -80,110 +80,85 @@ export default function WebinarsAndProgramExperience() {
             <section className='ptt-60 pbb-60 positionrelative'>
                 <div className='container'>
                     <div className='row zindx'>
-                        <div className='col-sm-4 d-none'>
-                            <div className='eventsbox'>
-                                <div className='eventmiddle'>
-                                    <img src="/assets/img/events.jpg" alt="" />
-                                    <span>Webinar December 16th, 2022</span>
-                                </div>
-                                <div className='eventbottom'>
-                                    <h3>Everything DiSC Productive Conflict Webinar</h3>
-                                    <a className="eventbtn" target="_blank" href='/everythingdisc/everything-disc-productive-conflict-webinar'>Reserve Your Seat</a>
-                                </div>
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>May  17th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Crucial Life Changing Skills</h3>
+                                <a target="_blank" className="eventbtn" href='/cruciallifechangingskills/workshops/'>Reserve Your Seat</a>
                             </div>
                         </div>
+                    </div>                    
 
-
-
-
-
-
-                        <div className='col-sm-4'>
-                            <div className='eventsbox'>
-                                <div className='eventmiddle'>
-                                    <img src="/assets/img/events.jpg" alt="" />
-                                    <span>Webinar January 20th, 2023</span>
-                                </div>
-                                <div className='eventbottom'>
-                                    <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
-                                    <h3>Lumina Spark</h3>
-                                    <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
-                                </div>
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>May 11th to 14th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>DISC Train-the-Trainer (TTT)</h3>
+                                <a target="_blank" className="eventbtn" href='/everythingdisc/everything-disc-ttt-vt-lp/'>Reserve Your Seat</a>
                             </div>
                         </div>
+                    </div>
 
-                        <div className='col-sm-4'>
-                            <div className='eventsbox'>
-                                <div className='eventmiddle'>
-                                    <img src="/assets/img/events.jpg" alt="" />
-                                    <span>Webinar February 3rd, 2023</span>
-                                </div>
-                                <div className='eventbottom'>
-                                    <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
-                                    <h3>The Five Behaviors</h3>
-                                    <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
-                                </div>
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>June 27th - 28th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>The SLII Experience™ - Face to Face</h3>
+                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
                             </div>
                         </div>
+                    </div>
 
-                        <div className='col-sm-4'>
-                            <div className='eventsbox'>
-                                <div className='eventmiddle'>
-                                    <img src="/assets/img/events.jpg" alt="" />
-                                    <span>Webinar 5th April, 2023</span>
-                                </div>
-                                <div className='eventbottom'>
-                                    <h4 className="eventtitlec">Time: 03:00 PM - 04:00 PM</h4>
-                                    <h3>Everything DISC- Overview</h3>
-                                    <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
-                                </div>
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>June  17th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>Crucial Life Changing Skills</h3>
+                                <a target="_blank" className="eventbtn" href='/cruciallifechangingskills/workshops/'>Reserve Your Seat</a>
                             </div>
                         </div>
+                    </div>                    
 
-                        <div className='col-sm-4'>
-                            <div className='eventsbox'>
-                                <div className='eventmiddle'>
-                                    <img src="/assets/img/events.jpg" alt="" />
-                                    <span>Webinar - Friday, April 14th, 2023</span>
-                                </div>
-                                <div className='eventbottom'>
-                                    <h4 className="eventtitlec">Time: 11:00 AM -12:00 PM</h4>
-                                    <h3>Virtual Training Apollo3</h3>
-                                    <a className="eventbtn" href='/jenson-8'>Reserve Your Seat</a>
-                                </div>
+                    
+
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>July 27th - 28th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>The SLII Experience™ - Face to Face</h3>
+                                <a target="_blank" className="eventbtn" href='https://blanchardinternational.co.in/events-workshops/virtual-public-workshop'>Reserve Your Seat</a>
                             </div>
                         </div>
+                    </div>
 
-                        <div className='col-sm-4'>
-                            <div className='eventsbox'>
-                                <div className='eventmiddle'>
-                                    <img src="/assets/img/events.jpg" alt="" />
-                                    <span>Webinar Friday, April 14th, 2023</span>
-                                </div>
-                                <div className='eventbottom'>
-                                    <h4 className="eventtitlec">Time: 11:00 AM -12:00 PM</h4>
-                                    <h3>Harnessing Creative Intelligence</h3>
-                                    <a className="eventbtn" href='/tirian-lp'>Reserve Your Seat</a>
-                                </div>
+                    <div className='col-sm-4'>
+                        <div className='eventsbox'>
+                            <div className='eventmiddle'>
+                                <img src="/assets/img/events.jpg" alt="" />
+                                <span>July 11th to 14th, 2023</span>
+                            </div>
+                            <div className='eventbottom'>
+                                <h3>DISC Train-the-Trainer (TTT)</h3>
+                                <a target="_blank" className="eventbtn" href='/everythingdisc/everything-disc-ttt-vt-lp/'>Reserve Your Seat</a>
                             </div>
                         </div>
-
-                        <div className='col-sm-4'>
-                            <div className='eventsbox'>
-                                <div className='eventmiddle'>
-                                    <img src="/assets/img/events.jpg" alt="" />
-                                    <span>Webinar Wednesday, 26th April 2023</span>
-                                </div>
-                                <div className='eventbottom'>
-                                    <h4 className="eventtitlec">Time: 11 am - 12 pm</h4>
-                                    <h3>Five Behaviour - Overview, Virtual</h3>
-                                    <a className="eventbtn" href='#Register'>Reserve Your Seat</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-
+                    </div>
 
                     </div>
 

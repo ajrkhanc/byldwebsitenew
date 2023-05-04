@@ -278,7 +278,7 @@ export default function Home() {
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="pb-50">
-                                <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Our Group Businesses</h2>
+                                <h2 class="title mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP">Authorized Partners</h2>
                                 <br></br>
                                 <Slider {...settings}>
 
