@@ -157,7 +157,7 @@ export default function Home() {
 
 
 
-            <section className='solutionrow ptt-60 pbb-60'>
+            <section className='solutionrow ptt-60 pbb-60 positionrelative'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-12 text-center pbb-50'>
@@ -197,6 +197,9 @@ export default function Home() {
                     </div>
 
                     <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
                     <div className='solutionarrowbox2'>
                         <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
@@ -241,7 +244,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className='solutionrow ptt-60 pbb-60'>
+            <section className='solutionrow ptt-60 pbb-60 positionrelative'>
                 <div className='container'>
                     <div className='row zindx'>
                         <div className='col-sm-1'></div>
@@ -276,6 +279,9 @@ export default function Home() {
                     </div>
 
                     <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
                     <div className='solutionarrowbox2'>
                         <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
@@ -320,7 +326,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className='solutionrow ptt-60 pbb-60'>
+            <section className='solutionrow ptt-60 pbb-60 positionrelative'>
                 <div className='container'>                  
                     <div className='row zindx'>
                         <div className='col-sm-1'></div>
@@ -355,6 +361,9 @@ export default function Home() {
                     </div>
 
                     <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
                     <div className='solutionarrowbox2'>
                         <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
@@ -396,6 +405,51 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section className='solutionrow ptt-60 pbb-60 positionrelative'>
+                <div className='container'>                  
+                    <div className='row zindx'>
+                        <div className='col-sm-1'></div>
+                        <div className='col-sm-10 zindx'>
+                            <div className='row'>
+                                <div className='col-sm-6'>
+                                    <div>
+                                    <img src='/assets/img/new/coachinng.jpg'/>
+                                    </div>
+                                </div>
+                                <div className='col-sm-6'>
+                                <div className='mst wow fadeInUp delay-0-2s animated animateUP'>
+                                        <div className='contentsolu'>
+                                            <h3>Partner Network</h3>
+                                            <p className='text-justify'>
+                                            We are now embarking upon an exciting journey into the future. So, if you are AGILE and can THINK BIG, we invite you to join the BYLD Group Partner Network as a sales/business consultant. The role will initially involve launching our world-class technology-based Virtual Reality (AR/VR) and Creativity/Innovation...
+                                            </p>
+                                        </div>
+
+                                        <div className='btnsolu'>
+                                            <div className="btn-part ennc">
+                                                <Link href="#"><a className="readon2"> Read More<div className="btn-arrow"></div></a></Link>
+                                            </div>
+                                            <div className="btn-part">
+                                                <Link href="#EnquireNow"><a className="readon2">Enquire Now<div className="btn-arrow"></div></a></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
+                    </div>
+
                 </div>
             </section>
 
