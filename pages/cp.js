@@ -9,6 +9,9 @@ export default function JoinOurPartnerNetworkLP() {
     const [modalOpen2, setModalOpen2] = React.useState(false);
     const [modalOpen3, setModalOpen3] = React.useState(false);
     const [modalOpen4, setModalOpen4] = React.useState(false);
+    const [modalOpen5, setModalOpen5] = React.useState(false);
+    const [modalOpen6, setModalOpen6] = React.useState(false);
+    const [modalOpen7, setModalOpen7] = React.useState(false);
     
 
     var settings = {
@@ -206,13 +209,105 @@ export default function JoinOurPartnerNetworkLP() {
         "&coursename=" + coursename)
     }
 
+    const whitp5 = async event => {
+        const coursename = 'White Paper';
+        event.preventDefault()
+        document.getElementById("submitbuttonform4").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/115/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/assets/pdf/culture-needed-in-an-airline-Industry-to-ride-the-talent-shortage.pdf"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +
+        "&youremail=" + event.target.email.value +
+        "&coursename=" + coursename)
+    }
+
+    const whitp6 = async event => {
+        const coursename = 'White Paper';
+        event.preventDefault()
+        document.getElementById("submitbuttonform4").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/115/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/assets/pdf/explain-nature-of-leadership-required-in-a-bfsi-industry.pdf"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +
+        "&youremail=" + event.target.email.value +
+        "&coursename=" + coursename)
+    }
+
+    const whitp7 = async event => {
+        const coursename = 'White Paper';
+        event.preventDefault()
+        document.getElementById("submitbuttonform4").value = "Submitting...."
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function () {
+            console.log(this.responseText);
+        }
+        xhttp.open("Post", 'https://ajrkhan.xyz/cruciallifechangingskills/wp-json/contact-form-7/v1/contact-forms/115/feedback');
+        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4) {
+                if (xhttp.status == 200) {
+                    document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
+                    document.getElementById("contactForm").reset();
+                    document.getElementById("showlabel").style.display = "block";
+                    window.setTimeout(function () {
+                        window.location.href = "/assets/pdf/hr-manage-fear-of-job-loss-among-employees-given-the-lay-off-culture-prevalent-in-it-industry-currently.pdf"
+                    });
+
+                } else {
+                    alert('There was a problem with the request.');
+                }
+            }
+        };
+        xhttp.send("name=" + event.target.name.value +
+        "&youremail=" + event.target.email.value +
+        "&coursename=" + coursename)
+    }
+
     return (
         <>
             <Head>
                 <title>Consulting Practice - BYLD Group</title>
                 <meta name="description" content="Welcome to BYLD Group! Join the BYLD Group Partner network, and become our business partner to maximize your growth opportunities. We are the largest group in South Asia offering HR and business productivity solutions for individuals, teams and organizations. Served 300 of 500 Fortune companies. Founded in 1998, backed by 1000+ years of accumulated professional… Continue reading Join our Partner network LP Ab Testing" />
                 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet"></link>
+                <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
             </Head>
+
 
             <Modal className='toppc mwc500' toggle={() => setModalOpen1(!modalOpen1)} isOpen={modalOpen1} backdrop="static" keyboard={false}>
                 <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen1(!modalOpen1)}>
@@ -306,9 +401,108 @@ export default function JoinOurPartnerNetworkLP() {
                 </ModalBody>
             </Modal>
 
-            <section className='cplps1 ptt-50 pbb-50'>
+            <Modal className='toppc mwc500' toggle={() => setModalOpen5(!modalOpen5)} isOpen={modalOpen5} backdrop="static" keyboard={false}>
+                <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen5(!modalOpen5)}>
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+                    <form id='contactForm' class="row popupfc" onSubmit={whitp5}>
+                    <h4>Want to get access to the Whitepaper?</h4>
+                        <h5>Please Register to download </h5>
+                        <div class="col-md-12">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*" required />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
+                        </div>                        
+                        <div class="col-md-12 text-center">
+                        <input id='submitbuttonform4' class="formbtn" type="submit" value="Submit"/>
+                        </div>
+                        <p id="showlabel" style={{ display: "none" }}></p>
+                    </form>
+                </ModalBody>
+            </Modal>
+
+            <Modal className='toppc mwc500' toggle={() => setModalOpen6(!modalOpen6)} isOpen={modalOpen6} backdrop="static" keyboard={false}>
+                <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen6(!modalOpen6)}>
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+                    <form id='contactForm' class="row popupfc" onSubmit={whitp6}>
+                    <h4>Want to get access to the Whitepaper?</h4>
+                        <h5>Please Register to download </h5>
+                        <div class="col-md-12">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*" required />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
+                        </div>                        
+                        <div class="col-md-12 text-center">
+                        <input id='submitbuttonform4' class="formbtn" type="submit" value="Submit"/>
+                        </div>
+                        <p id="showlabel" style={{ display: "none" }}></p>
+                    </form>
+                </ModalBody>
+            </Modal>
+
+            <Modal className='toppc mwc500' toggle={() => setModalOpen7(!modalOpen7)} isOpen={modalOpen7} backdrop="static" keyboard={false}>
+                <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen7(!modalOpen7)}>
+                    <span aria-hidden={true}>×</span>
+                </button>
+
+                <ModalBody>
+                    <form id='contactForm' class="row popupfc" onSubmit={whitp7}>
+                    <h4>Want to get access to the Whitepaper?</h4>
+                        <h5>Please Register to download </h5>
+                        <div class="col-md-12">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*" required />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
+                        </div>                        
+                        <div class="col-md-12 text-center">
+                        <input id='submitbuttonform4' class="formbtn" type="submit" value="Submit"/>
+                        </div>
+                        <p id="showlabel" style={{ display: "none" }}></p>
+                    </form>
+                </ModalBody>
+            </Modal>
+
+            <div class="rs-breadcrumbs cpbg">
+                <div class="container">
+                    <div class="breadcrumb-container theme1 wow fadeInUp delay-0-2s animated animateUP">
+                        <ul>
+                            <li>
+                                <a href="/">
+                                    <span>Home</span>
+                                </a>
+                                <span class="separator">/</span>
+                            </li>
+                            <li>
+                                <a href="/cp">
+                                    <span>Consulting Practice</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col-sm-8'>
+                            <div class="breadcrumbs-inner">                                
+                                <h1 class="page-title wow fadeInUp delay-0-2s animated animateUP">
+                                Consulting Practice
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section className='cplps1 ptt-50 pbb-50 positionrelative'>
                 <div className='container'>
-                    <div className='row align-items-center'>
+                    <div className='row align-items-center zindx'>
                         <div className='col-sm-6'>
                             <div>
                                 <h1>We Diagnose Your Problems, Curate an Action Plan, and Offer Bespoke Solutions for Actionable Results</h1>
@@ -322,12 +516,103 @@ export default function JoinOurPartnerNetworkLP() {
                             </div>
                         </div>
                     </div>
+
+                    <div className='clearfix'></div>                   
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/orangearrow1.png" />
+                    </div>
+
                 </div>
             </section>
 
-            <section className='cplps2 ptt-50 pbb-50'>
+            <section id="rs-team" className='style2 solutionrow ptt-60 pbb-60 cpteambg'>
                 <div className='container'>
                     <div className='row'>
+                        <div className='col-sm-2'></div>
+                        <div className='col-sm-8'>
+                            <h2 class="title pbb-100 mb-0 md-pb-20 h2call wow fadeInUp delay-0-2s animated animateUP pbb-30">Know Our Consulting Practitioners (CPs):</h2>
+                        </div>
+                    </div>
+                    <div className='row zindx'>                       
+                        <div className='col-sm-12'>
+                            <div className='row'>
+                                <div className='col-sm-4'>
+                                    <div className='innerteamc mbb-70'>
+                                        <div className='teamimgc1'>
+                                            <a target="_blank" href="/yogesh-sood"><img src="/assets/img/team/amar1.jpg" alt="" /></a>
+                                        </div>
+                                        <div className="team-info">
+                                            <div className="name">
+                                                <a target="_blank" href="#">Amarvijayy Taandur</a>
+                                            </div>
+                                            <span className="post">Principal Advisor - Civil, Infra, Heavy Engineering, <br></br>Power and Automotive</span>
+                                        </div>
+                                        <div>
+                                            <ul className="social-icon">
+                                                <li><a target="_blank" href="https://www.linkedin.com/in/amarvijayy-taandur-9359334/"><i className="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div className='col-sm-4'>
+                                    <div className='innerteamc mbb-70'>
+                                        <div className='teamimgc1'>
+                                            <a href="#"><img src="/assets/img/team/ronald1.jpg" alt="" /></a>
+                                        </div>
+                                        <div className="team-info">
+                                            <div className="name">
+                                                <a href="#">Ronald Soans</a>
+                                            </div>
+                                            <span className="post">Principal Advisor - IT, ITES, <br></br>Consulting and BFSI</span>
+                                        </div>
+                                        <div>
+                                            <ul className="social-icon">
+                                                <li><a target="_blank" href="https://www.linkedin.com/in/ronald-soans-4b703412/"><i className="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='col-sm-4'>
+                                    <div className='innerteamc mbb-70'>
+                                        <div className='teamimgc1'>
+                                            <a href="#"><img src="/assets/img/team/meghna.jpg" alt="" /></a>
+                                        </div>
+                                        <div className="team-info">
+                                            <div className="name">
+                                                <a href="#">Meghna Goyal</a>
+                                            </div>
+                                            <span className="post">Principal Advisor - Pharma, <br></br>FMCG, E-commerce</span>
+                                        </div>
+                                        <div>
+                                            <ul className="social-icon">
+                                                <li><a target="_blank" href="https://www.linkedin.com/in/meghna-goyal-442560b/"><i className="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
+                    </div>
+
+                </div>
+            </section>
+
+            {/* <section className='cplps2 ptt-50 pbb-50 positionrelative'>
+                <div className='container'>
+                    <div className='row zindx'>
                         <div className='col-sm-12'>
                             <div class="sec-title3 text-center mb-30">
                                 <h2 class="title color2 font345">Know Our Consulting Practitioners (CPs):</h2>
@@ -336,6 +621,7 @@ export default function JoinOurPartnerNetworkLP() {
                         </div>
                         
                         <div className='col-sm-4'>
+                            <a href='/team/amarvijayy-taandur'>
                             <div className='teamf'>
                                 <div className='teamimgc'>
                                     <img src="/assets/img/team/amar1.jpg" alt="image" />
@@ -345,9 +631,11 @@ export default function JoinOurPartnerNetworkLP() {
                                     <h4>Principal Advisor - Civil, Infra, Heavy Engineering, Power and Automotive</h4>
                                 </div>
                             </div>
+                            </a>
                         </div>
 
                         <div className='col-sm-4'>
+                            <a href='/team/ronald-soans'>
                             <div className='teamf'>
                                 <div className='teamimgc'>
                                     <img src="/assets/img/team/ronald1.jpg" alt="image" />
@@ -357,7 +645,23 @@ export default function JoinOurPartnerNetworkLP() {
                                     <h4>Principal Advisor - IT, ITES, Consulting and BFSI</h4>
                                 </div>
                             </div>
+                            </a>
                         </div>
+
+                        <div className='col-sm-4'>
+                            <a href='/team/meghna-goyal'>
+                            <div className='teamf'>
+                                <div className='teamimgc'>
+                                    <img src="/assets/img/team/meghna.jpg" alt="image" />
+                                </div>
+                                <div className='teamfro'>
+                                    <h3>Meghna Goyal</h3>
+                                    <h4>Principal Advisor - Pharma, FMCG, E-commerce</h4>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
                         <div className='col-sm-4'>
                             <div className='boxshd borderr mtt-30'>
                                 <div className="bannerform">
@@ -403,14 +707,22 @@ export default function JoinOurPartnerNetworkLP() {
                                     </form>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
+                    </div>
+
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
 
-            {/* <section className='jopn1 ptt-50 pbb-50 cplps3'>
+            <section className='jopn1 ptt-50 pbb-50 cplps3'>
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-sm-12'>
@@ -473,7 +785,7 @@ export default function JoinOurPartnerNetworkLP() {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
 
             <section id='GetinTouch' className='ptt-50 pbb-70 cplps4'>
@@ -489,11 +801,13 @@ export default function JoinOurPartnerNetworkLP() {
 
                         <div className='col-sm-12 cld'>
                             <Slider {...settings}>
+                            
+
+
                                 <div className='logoslider'>
                                     <div className='impdf'>
                                         <img src="/assets/pdf/pdfi/challenges-and-recommendations-for-auto-industry.jpg" />
                                         {/* <a href='/assets/pdf/challenges-and-recommendations-for-auto-industry.pdf' download>Download White Paper</a> */}
-                                        
                                         <i class="blink fa fa-download" aria-hidden="true" onClick={() => setModalOpen1(!modalOpen1)}></i>
                                     </div>
                                 </div>
@@ -519,6 +833,28 @@ export default function JoinOurPartnerNetworkLP() {
                                         <img src="/assets/pdf/pdfi/what-will-spur-BFSI-industry-to-its-next-peak.jpg" />
                                         {/* <a href='/assets/pdf/what-will-spur-BFSI-industry-to-its-next-peak.pdf' download>Download White Paper</a> */}
                                         <i class="blink fa fa-download" aria-hidden="true" onClick={() => setModalOpen4(!modalOpen4)}></i>
+                                    </div>
+                                </div>
+
+                                <div className='logoslider'>
+                                    <div className='impdf'>
+                                        <img src="/assets/pdf/pdfi/culture-needed-in-an-airline-Industry-to-ride-the-talent-shortage.jpg" />
+                                        {/* <a href='/assets/pdf/challenges-and-recommendations-for-auto-industry.pdf' download>Download White Paper</a> */}
+                                        <i class="blink fa fa-download" aria-hidden="true" onClick={() => setModalOpen5(!modalOpen5)}></i>
+                                    </div>
+                                </div>
+                                <div className='logoslider'>
+                                    <div className='impdf'>
+                                        <img src="/assets/pdf/pdfi/explain-nature-of-leadership-required-in-a-bfsi-industry.jpg" />
+                                        {/* <a href='/assets/pdf/challenges-and-recommendations-for-auto-industry.pdf' download>Download White Paper</a> */}
+                                        <i class="blink fa fa-download" aria-hidden="true" onClick={() => setModalOpen6(!modalOpen6)}></i>
+                                    </div>
+                                </div>
+                                <div className='logoslider'>
+                                    <div className='impdf'>
+                                        <img src="/assets/pdf/pdfi/hr-manage-fear-of-job-loss-among-employees-given-the-lay-off-culture-prevalent-in-it-industry-currently.jpg" />
+                                        {/* <a href='/assets/pdf/challenges-and-recommendations-for-auto-industry.pdf' download>Download White Paper</a> */}
+                                        <i class="blink fa fa-download" aria-hidden="true" onClick={() => setModalOpen7(!modalOpen7)}></i>
                                     </div>
                                 </div>
 

@@ -135,6 +135,7 @@ export default function Blog({ posts, cats }) {
                             {
                                 posts.slice(0, 10).map((getpost) => {
                                     return (
+                                        <>
                                         <div className="row mshdc">
                                             <div className="col-md-8 mbb-20">
                                                 <div className="blog-item">
@@ -167,8 +168,11 @@ export default function Blog({ posts, cats }) {
                                                 <div className="blog-img">
                                                     <a href={getpost.posturl}><img src={getpost.ImageURL} alt={getpost.ImageAlt} /></a>
                                                 </div>
-                                            </div>
+                                            </div> 
                                         </div>
+                                        <hr className='hrc'></hr>
+                                        </>
+                                    
                                     );
                                 })
                             }
