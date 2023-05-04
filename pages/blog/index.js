@@ -109,18 +109,35 @@ export default function Blog({ posts, cats }) {
             </div>
 
             <div className="rs-inner-blog ptt-40 pbb-50 positionrelative">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row zindx">
-                        <div className="col-md-8 col-sm-12">
-                            <div className="row">
-                                {
-                                    posts.map((getpost) => {
-                                        return (
-                                            <div className="col-md-6 mbb-20">
+
+                        <div className='col-sm-12'>
+                            <div>
+                                <form className='postfilterform'>
+                                    <select>
+                                        <option value='Latest'>Latest</option>
+                                        <option value='Oldest'>Oldest</option>
+                                    </select>
+
+                                    <select>
+                                        <option value=''>Categories</option>
+                                        <option value='Assessment'>Assessment</option>
+                                        <option value='Coaching'>Coaching</option>
+                                        <option value='Experiential Learning'>Experiential Learning</option>
+                                        <option value='Leadership and Performance Enhancement'>Leadership and Performance Enhancement</option>
+                                        <option value='Staffing and Search'>Staffing and Search</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                        <div className="col-md-12">
+                            {
+                                posts.slice(0, 10).map((getpost) => {
+                                    return (
+                                        <div className="row mshdc">
+                                            <div className="col-md-8 mbb-20">
                                                 <div className="blog-item">
-                                                    <div className="blog-img">
-                                                        <a href={getpost.posturl}><img src={getpost.ImageURL} alt={getpost.ImageAlt} /></a>
-                                                    </div>
                                                     <div className="blog-content">
                                                         <h3 className="blog-title"><a href={getpost.posturl}>{getpost.Title}</a></h3>
                                                         <div className="blog-meta">
@@ -137,59 +154,47 @@ export default function Blog({ posts, cats }) {
                                                                 </li>
                                                             </ul>
                                                         </div>
+                                                        <div>
+                                                            <p>{getpost.Description}</p>
+                                                        </div>
                                                         <div className="blog-button">
                                                             <a className="blog-btn" href={getpost.posturl}>Read More</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        );
-                                    })
-                                }
-
-                            </div>
-                        </div>
-
-                        <div className="col-md-4 col-sm-12">
-                            <div className="widget-area">
-                                <div className="recent-posts mbb-20">
-                                    <div className="widget-title">
-                                        <h3 className="title">Recent Posts</h3>
-                                    </div>
-                                    {
-                                        posts.slice(0, 5).map((getpost) => {
-                                            return (
-                                                <div class="recent-post-widget">
-                                                    <div class="post-img">
-                                                        <a href={`/${getpost.posturl}`}>
-                                                            <img src={getpost.ImageURL} alt={getpost.ImageAlt} />
-                                                        </a>
-                                                    </div>
-                                                    <div class="post-desc">
-                                                        <a href={`/${getpost.posturl}`}>{getpost.Title}</a>
-                                                        <span class="date-post"> <i class="fa fa-calendar"></i> {moment(getpost.ModifiedDate).format('DD MMMM Y')} </span>
-                                                    </div>
+                                            <div className='col-md-4'>
+                                                <div className="blog-img">
+                                                    <a href={getpost.posturl}><img src={getpost.ImageURL} alt={getpost.ImageAlt} /></a>
                                                 </div>
-                                            );
-                                        })
-                                    }
-                                </div>
-                                <div className="categories">
-                                    <div className="widget-title">
-                                        <h3 className="title">Categories</h3>
-                                    </div>
-                                    <ul>
-                                        {
-                                            cats.map((getcats) => {
-                                                return (
-                                                    <li><a href={`/blog/${getcats.Caturl}`}>{getcats.Name}</a></li>
-                                                );
-                                            })
-                                        }
-                                    </ul>
+                                            </div>
+                                        </div>
+                                    );
+                                })
+                            }
+
+
+
+                        </div>
+
+                        <div class="col-lg-12 text-center">
+                            <div class="pagination-area">
+                                <div class="nav-link">
+                                    <span class="page-number white-color">1</span>
+                                    <a class="page-number" href="#">2</a>
+                                    <a class="page-number" href="#">3</a>
+                                    <a class="page-number" href="#">4</a>
+                                    <a class="page-number" href="#">5</a>
+                                    <a class="page-number" href="#">6</a>
+                                    <a class="page-number" href="#">7</a>
+                                    <a class="page-number" href="#">8</a>
+                                    <a class="page-number" href="#">9</a>
+                                    <a class="page-number" href="#">10</a>
+                                    <a class="page-number" href="#">12</a>
+                                    <a class="page-number border-none" href="#">Next</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>                   
                     </div>
 
                     <div className='clearfix'></div>

@@ -6307,7 +6307,7 @@ body .search-modal .close:hover {
 }
 .rs-inner-blog .blog-item {
   background: #fff;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+
   padding: 15px;
   transition: 0.3s;
 }
@@ -9004,4 +9004,15 @@ body .search-modal .close:hover {
     max-height: 46px !important;
     margin-top: -7px !important;
 }
+}
+
+.postfilterform select{
+  border: 2px solid #3373af;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-right: 30px;
+}
+
+.postfilterform{
+  margin-bottom: 40px;
 }

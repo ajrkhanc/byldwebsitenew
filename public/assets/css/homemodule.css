@@ -1501,3 +1501,8 @@ padding: 10px 10px;
 .workshopsbg{
     background-image: url(/assets/img/new/banner/workshops.jpg);
 }
+
+.mshdc{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-bottom: 30px;
+}
