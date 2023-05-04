@@ -9016,3 +9016,7 @@ body .search-modal .close:hover {
 .postfilterform{
   margin-bottom: 40px;
 }
+
+.shares button{
+  margin-right: 10px;
+}

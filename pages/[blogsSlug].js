@@ -214,12 +214,61 @@ export default function singleblog({ posts, posts5, postfeedback }) {
                                             <div className="bloglinkh" dangerouslySetInnerHTML={{ __html: posts.Content }}></div>
 
                                             <div className="shares">
+
+
                                                 <FacebookShareButton
-                                                    url={posts.posturl}
-                                                    quote={posts.Title}                                                  
+                                                    url={`https://neobyld.vercel.app/${posts.posturl}`}
+                                                    quote={posts.Title}
                                                 >
                                                     <FacebookIcon size={32} round />
                                                 </FacebookShareButton>
+
+                                                <PinterestShareButton
+                                                    url={`https://neobyld.vercel.app/${posts.posturl}`}
+                                                    media={posts.ImageURL}
+                                                >
+                                                    <PinterestIcon size={32} round />
+                                                </PinterestShareButton>
+
+                                                <RedditShareButton
+                                                    url={`https://neobyld.vercel.app/${posts.posturl}`}
+                                                    title={posts.Title}
+                                                >
+                                                    <RedditIcon size={32} round />
+                                                </RedditShareButton>
+
+                                                <TelegramShareButton
+                                                    url={`https://neobyld.vercel.app/${posts.posturl}`}
+                                                    title={posts.Title}
+                                                >
+                                                    <TelegramIcon size={32} round />
+                                                </TelegramShareButton>
+
+                                                <TumblrShareButton
+                                                    url={`https://neobyld.vercel.app/${posts.posturl}`}
+                                                    title={posts.Title}
+                                                >
+                                                    <TumblrIcon size={32} round />
+                                                </TumblrShareButton>
+
+                                                <TwitterShareButton
+                                                   url={`https://neobyld.vercel.app/${posts.posturl}`}
+                                                    title={posts.Title}
+                                                >
+                                                    <TwitterIcon size={32} round />
+                                                </TwitterShareButton>
+
+                                                <WhatsappShareButton
+                                                    url={`https://neobyld.vercel.app/${posts.posturl}`}
+                                                    title={posts.Title}
+                                                    separator=":: "
+                                                >
+                                                    <WhatsappIcon size={32} round />
+                                                </WhatsappShareButton>
+
+                                                <LinkedinShareButton url={`https://neobyld.vercel.app/${posts.posturl}`}>
+                                                    <LinkedinIcon size={32} round />
+                                                </LinkedinShareButton>
                                             </div>
                                             <div class="comment-note d-none">
                                                 <div className="comments-wrap mt-55 wow fadeInUp delay-0-2s animated">
