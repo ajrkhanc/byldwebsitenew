@@ -264,7 +264,7 @@ export default function Home() {
 
                                 <div className='col-sm-6'>
                                     <div className='solutionbox wow fadeInUp delay-0-2s animated animateUP'>
-                                        <h4><span>D</span>elhi</h4>
+                                        <h4><span>H</span>yderabad</h4>
                                         <div className='cicon'>
                                             <img className='active' src="/assets/img/new/icon/mapn.png" alt="images" />
                                             <img className='hover' src="/assets/img/new/icon/maph.png" alt="images" />

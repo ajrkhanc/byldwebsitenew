@@ -787,9 +787,9 @@ export default function JoinOurPartnerNetworkLP() {
             </section>
 
 
-            <section id='GetinTouch' className='ptt-50 pbb-70 cplps4'>
+            <section id='GetinTouch' className='ptt-50 pbb-70 cplps4 positionrelative'>
                 <div className="container">
-                    <div className="row">
+                    <div className="row zindx">
                         <div className='col-sm-12'>
                             <div class="sec-title3 text-center mb-30">
                                 <h2 class="title color2 font345">Let Us Explore Our Professional Journey Together</h2>
@@ -866,6 +866,14 @@ export default function JoinOurPartnerNetworkLP() {
                                 </a>
                             </div>
                         </div> */}
+                    </div>
+
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
                 </div>
             </section>

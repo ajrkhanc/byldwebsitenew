@@ -4066,6 +4066,7 @@ table td {
   border: 7px solid #e88027;
   border-bottom-color: #3474ae;
   border-right-color: #3474ae;
+  background: #fff;
 }
 
 .impdf:hover{
