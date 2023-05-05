@@ -3484,7 +3484,7 @@ table td {
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 100% 100%);
   left: auto;
   right: 0;
-  background: rgb(42 109 181) !important;
+  background: rgb(230, 103, 29) !important;
 }
 
 /* .jopn1::after {

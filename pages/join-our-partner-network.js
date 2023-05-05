@@ -40,11 +40,12 @@ export default function JoinOurPartnerNetworkLP() {
                 <title>Join our Partner network - BYLD Group</title>
                 <meta name="description" content="Welcome to BYLD Group! Join the BYLD Group Partner network, and become our business partner to maximize your growth opportunities. We are the largest group in South Asia offering HR and business productivity solutions for individuals, teams and organizations. Served 300 of 500 Fortune companies. Founded in 1998, backed by 1000+ years of accumulated professional… Continue reading Join our Partner network LP Ab Testing" />
                 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet"></link>
+                <link rel="stylesheet" type="text/css" href="/assets/css/homemodule.css" />
             </Head>
 
-            <section className='jopn1 ptt-50 pbb-50 joinfont'>
+            <section className='jopn1 ptt-50 pbb-50 joinfont positionrelative'>
                 <div className='container'>
-                    <div className='row align-items-center'>
+                    <div className='row align-items-center zindx'>
                         <div className='col-sm-6'>
                             <div>
                                 <h1>Become a BYLD Partner</h1>
@@ -57,6 +58,14 @@ export default function JoinOurPartnerNetworkLP() {
                                 <img src="/assets/img/img3.png" />
                             </div>
                         </div>
+                    </div>
+
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
                 </div>
             </section>
@@ -91,9 +100,9 @@ export default function JoinOurPartnerNetworkLP() {
                 </div>
             </section>
 
-            <section id='GetinTouch' className='jopn1 ptt-50 pbb-50 jooo5 joinfont'>
+            <section id='GetinTouch' className='jopn1 ptt-50 pbb-50 jooo5 joinfont homecon positionrelative'>
                 <div className='container'>
-                    <div className='row align-items-center'>
+                    <div className='row align-items-center zindx'>
                         <div className='col-sm-6'>
                             <div className='boxshd mtt-30'>
                                 <div className="bannerform">
@@ -101,16 +110,16 @@ export default function JoinOurPartnerNetworkLP() {
                                     <form id="contact-form" className='clientcornner' onSubmit={registerUser}>
                                         <div className="row">
                                             <div className="col-lg-12 mb-12">
-                                                <input type="text" name="fname" placeholder="First Name*" required />
+                                                <input className='borrr' type="text" name="fname" placeholder="First Name*" required />
                                             </div>
                                             <div className="col-lg-12 mb-12">
-                                                <input type="email" name="email" placeholder="E-mail*" required />
+                                                <input className='borrr' type="email" name="email" placeholder="E-mail*" required />
                                             </div>
                                             <div className="col-lg-12 mb-12">
-                                                <input type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                                <input className='borrr' type="text" name="phone" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                             </div>
                                             <div className="col-lg-12 mb-12">
-                                            <input type="text" name="occupation" placeholder="Occupation*" required />
+                                            <input className='borrr' type="text" name="occupation" placeholder="Occupation*" required />
                                                 {/* <select name="occupation" required>
                                                     <option value="">Occupation*</option>
                                                     <option value="HR Professional">HR Professional</option>
@@ -178,6 +187,14 @@ export default function JoinOurPartnerNetworkLP() {
                                     </div></div>
                             </div>
                         </div>
+                    </div>
+
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
                 </div>
             </section>
@@ -370,9 +387,9 @@ export default function JoinOurPartnerNetworkLP() {
             </div>
 
 
-            <section className='join4 ptt-50 pbb-50 joinfont'>
+            <section className='join4 ptt-50 pbb-50 joinfont positionrelative'>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row zindx'>
                         <div className='col-sm-12'>
                             <div class="sec-title3 text-center mb-30">
                                 <h2 class="title color2 ncc">What’s in Store for You?</h2>
@@ -414,6 +431,13 @@ export default function JoinOurPartnerNetworkLP() {
                                 <h3>Solutions Across Organizational Hierarchies</h3>
                             </div>
                         </div>
+                    </div>
+                    <div className='clearfix'></div>
+                    <div className='solutionarrowbox1'>
+                        <img src="/assets/img/homeb/orangearrow.png" />
+                    </div>
+                    <div className='solutionarrowbox2'>
+                        <img src="/assets/img/homeb/bluearrow1.png" />
                     </div>
                 </div>
             </section>
