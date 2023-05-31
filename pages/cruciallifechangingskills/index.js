@@ -1,10 +1,89 @@
 import Head from 'next/head'
+import Slider from "react-slick";
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
 import React from "react";
 
+
 export default function Home() {
+
+    var settings = {
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+
+    var Coursec = {
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+
     const [modalOpen1, setModalOpen1] = React.useState(false);
     const [modalOpen2, setModalOpen2] = React.useState(false);
     const [modalOpen3, setModalOpen3] = React.useState(false);
@@ -69,8 +148,8 @@ export default function Home() {
             }
         };
         xhttp.send("name=" + event.target.name.value +
-        "&youremail=" + event.target.email.value +
-        "&coursename=" + coursename)
+            "&youremail=" + event.target.email.value +
+            "&coursename=" + coursename)
     }
 
     const gtd = async event => {
@@ -99,8 +178,8 @@ export default function Home() {
             }
         };
         xhttp.send("name=" + event.target.name.value +
-        "&youremail=" + event.target.email.value +
-        "&coursename=" + coursename)
+            "&youremail=" + event.target.email.value +
+            "&coursename=" + coursename)
     }
 
     const cc1 = async event => {
@@ -129,8 +208,8 @@ export default function Home() {
             }
         };
         xhttp.send("name=" + event.target.name.value +
-        "&youremail=" + event.target.email.value +
-        "&coursename=" + coursename)
+            "&youremail=" + event.target.email.value +
+            "&coursename=" + coursename)
     }
 
     const poh = async event => {
@@ -159,8 +238,8 @@ export default function Home() {
             }
         };
         xhttp.send("name=" + event.target.name.value +
-        "&youremail=" + event.target.email.value +
-        "&coursename=" + coursename)
+            "&youremail=" + event.target.email.value +
+            "&coursename=" + coursename)
     }
 
     const influncer = async event => {
@@ -189,13 +268,17 @@ export default function Home() {
             }
         };
         xhttp.send("name=" + event.target.name.value +
-        "&youremail=" + event.target.email.value +
-        "&coursename=" + coursename)
+            "&youremail=" + event.target.email.value +
+            "&coursename=" + coursename)
     }
 
 
     return (
         <>
+            <Head>
+                <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+                <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+            </Head>
 
             <Modal className='toppc' toggle={() => setModalOpen1(!modalOpen1)} isOpen={modalOpen1} backdrop="static" keyboard={false}>
                 <button aria-label="Close" className="close popcl" type="button" onClick={() => setModalOpen1(!modalOpen1)}>
@@ -210,9 +293,9 @@ export default function Home() {
                         </div>
                         <div class="col-md-12">
                             <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
-                        </div>                        
+                        </div>
                         <div class="col-md-12">
-                        <input id='submitbuttonform1' class="formbtn" type="submit" value="Submit"/>
+                            <input id='submitbuttonform1' class="formbtn" type="submit" value="Submit" />
                         </div>
                         <p id="showlabel" style={{ display: "none" }}></p>
                     </form>
@@ -232,9 +315,9 @@ export default function Home() {
                         </div>
                         <div class="col-md-12">
                             <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
-                        </div>                        
+                        </div>
                         <div class="col-md-12">
-                        <input id='submitbuttonform2' class="formbtn" type="submit" value="Submit"/>
+                            <input id='submitbuttonform2' class="formbtn" type="submit" value="Submit" />
                         </div>
                         <p id="showlabel" style={{ display: "none" }}></p>
                     </form>
@@ -254,9 +337,9 @@ export default function Home() {
                         </div>
                         <div class="col-md-12">
                             <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
-                        </div>                        
+                        </div>
                         <div class="col-md-12">
-                        <input id='submitbuttonform3' class="formbtn" type="submit" value="Submit"/>
+                            <input id='submitbuttonform3' class="formbtn" type="submit" value="Submit" />
                         </div>
                         <p id="showlabel" style={{ display: "none" }}></p>
                     </form>
@@ -276,9 +359,9 @@ export default function Home() {
                         </div>
                         <div class="col-md-12">
                             <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
-                        </div>                        
+                        </div>
                         <div class="col-md-12">
-                        <input id='submitbuttonform4' class="formbtn" type="submit" value="Submit"/>
+                            <input id='submitbuttonform4' class="formbtn" type="submit" value="Submit" />
                         </div>
                         <p id="showlabel" style={{ display: "none" }}></p>
                     </form>
@@ -298,144 +381,109 @@ export default function Home() {
                         </div>
                         <div class="col-md-12">
                             <input type="email" name="email" class="form-control" placeholder="Your Work Email*" required />
-                        </div>                        
+                        </div>
                         <div class="col-md-12">
-                        <input id='submitbuttonform5' class="formbtn" type="submit" value="Submit"/>
+                            <input id='submitbuttonform5' class="formbtn" type="submit" value="Submit" />
                         </div>
                         <p id="showlabel" style={{ display: "none" }}></p>
                     </form>
                 </ModalBody>
             </Modal>
 
-            <section class="hero-section">
+            <section class="hero-section pad0">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="d-md-block d-none col-lg-2 p-0">
-                            <img class="left-image" src="/classets/img/circle-header-1.jpg" alt="" />
-                        </div>
-
-                        <div class="col-lg-6 middle-area">
-                            <h1>Learn Life-Transforming Skills</h1>
-                            <p>Enroll in our award-winning trainings and learn how to handle the most crucial challenges of life and work.</p><br />
-                            <h6><a class="secondary-btn" href="/cruciallifechangingskills/browse-courses/">Browse Courses</a>
-                                <a class="primary-btn" href="/cruciallifechangingskills/contact-us">Get Started</a></h6>
-                        </div>
-                        <div class="col-lg-4 right-image">
-                            <img class="left-image img70" src="/classets/img/sitting-woman.svg" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            
-            <section class="video-section-main">
-                <div class="container-fluid">
-                    <div class="row video-section">
-                        <div class="col-md-6 offset-md-3">
-                            <div class="row video-area">
-                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/OalK_lZuzYQ?autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-                                <div class="video-icon">
-                                    <i class="ph-play-circle-bold"></i>
-                                </div>
+                        <div className='col-sm-12 pad0 videc'>
+                            <div className='mainvd'>
+                                <video src="/classets/video/clh.mp4" autoPlay muted loop type="video/mp4"></video>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2">
-                            <p className='colorb'>
-                                Based on <strong>30+ years</strong> of social science research, our courses for managers have proven highly effective in strengthening relationships, achieving more with less stress, building habits for success,
-                                and experience greater joy.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section class="why-us">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2><span>Why Us?</span></h2>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="features">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 feature-left">
-                            <img src="/classets/img/bulb.svg" />
-                        </div>
-                        <div class="col-md-8">
-                            <div class="row feature-right">
-                                <div class="col-md-2 feature-icon">
-                                    <img src="classets/img/Premier-1.svg" />
-                                </div>
-                                <div class="col-md-10 feature-content">
-                                    <h4>Premier</h4>
-                                    <p>We’ve ranked amongst the top 20 Leadership Training companies, for seven years and counting.</p>
-                                </div>
-                                <div class="col-md-2 feature-icon">
-                                    <img src="classets/img/Proven.svg" />
-                                </div>
-                                <div class="col-md-10 feature-content">
-                                    <h4>Proven</h4>
-                                    <p>Our solutions are backed by 30 years of social science research and have proven highly effective in bringing about a real behavior change.</p>
-                                </div>
-                                <div class="col-md-2 feature-icon">
-                                    <img src="classets/img/Flexible-1.svg" />
-                                </div>
-                                <div class="col-md-10 feature-content">
-                                    <h4>Flexible</h4>
-                                    <p>Our learnings and corporate training course are ﬂexible and available in various formats including in-person, virtual, and on-demand.</p>
-                                </div>
-                                <div class="col-md-2 feature-icon">
-                                    <img src="classets/img/trusted.svg" />
-                                </div>
-                                <div class="col-md-10 feature-content">
-                                    <h4>Trusted</h4>
-                                    <p>More than 93% of our customers say that they would recommend us.</p>
-                                </div>
+                            <div className='ffffb'>
+                                <h1>Learn Life-Transforming Skills</h1>
+                                <p>Enroll in our award-winning trainings and learn how to handle the most<br></br>crucial challenges of life and work.</p><br />
+                                <h6>
+                                    <a class="btn1" href="/cruciallifechangingskills/browse-courses/">Browse Courses</a>
+                                    <a class="btn2" href="/cruciallifechangingskills/contact-us">Get Started</a>
+                                </h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="why-us choose-path">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-10 offset-md-1 text-center title">
-                            <h2><span>CHOOSE YOUR PATH</span></h2>
-                            <p>
-                                To ensure you and your organization beneﬁts from our world-renowned training, we offer courses in ﬂexible formats including in person, virtually, or on-demand—or you can blend them for a unique and engaging learning experience to learn Effective Communication Skills.
-                            </p>
+            <section className='darkbg patt-70 pabb-70'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center'>
+                            <h2 className='font50 cblack'>What’s New at Crucial Learning</h2>
+                            <p className='font24 pabb-20'>From webinars to courses, assessments to case studies, find the latest <br></br>from our team to foster greatness in your teams.</p>
+                        </div>
+                        <div className='col-sm-4'>
+                            <div className='incbox'>
+                                <img src="classets/img/new/justinhale-cruciallearning.jpg" />
+                                <h3>Free GTD<sup>®</sup> Miniseries</h3>
+                                <p>
+                                    Learn skills to decrease distraction and improve focus in four short video lessons with GTD expert Justin Hale.
+                                </p>
+                                <a className='regularbtn' href='#'>Learn More</a>
+                            </div>
+                        </div>
+                        <div className='col-sm-4'>
+                            <div className='incbox'>
+                                <img src="classets/img/new/webinars-cruciallearning-editorial.jpg" />
+                                <h3>Live Webinars</h3>
+                                <p>
+                                    Learn big ideas and practical tips in LIVE webinars with bestselling authors, thought leaders, and master trainers.
+                                </p>
+                                <a className='regularbtn' href='#'>Learn More</a>
+                            </div>
+                        </div>
+                        <div className='col-sm-4'>
+                            <div className='incbox'>
+                                <img src="classets/img/new/cl-3.jpg" />
+                                <h3>Can You Disagree Respectfully?</h3>
+                                <p>
+                                    When faced with an argument, do you dig in, or give in? Shut down, or lash out? Take the Style Under Stress assessment and find out.
+                                </p>
+                                <a className='regularbtn' href='#'>Learn More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="grey-section">
-                <div class="container-fluid">
+
+            <section className='chooseyp patt-100 pabb-60'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center bbefor pabb-100'>
+                            <h2 className='font50 cwhite'>Choose Your Path</h2>
+                            <div className='body_text uses-wysiwyg'>
+                                <p className='font24 pabb-20 cwhite'>
+                                    To ensure you and your organization beneﬁts from our world-renowned training, we offer courses in ﬂexible formats including in person, virtually, or on-demand—or you can blend them for a unique and engaging learning experience to learn Effective Communication Skills.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="row feature-content text-center feature-box">
+                                    <div class="text-center chooseypbox">
                                         <img className='imgmauto img70 pbb-30' src="classets/img/icon-on-demand-1.svg" />
                                         <h4>On Demand</h4>
                                         <p>Learn at your own pace online.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="row feature-content text-center feature-box">
+                                    <div class="text-center chooseypbox bgorangelight">
                                         <img className='imgmauto img70 pbb-30' src="classets/img/icon-virtual-1.svg" />
                                         <h4>Virtual</h4>
                                         <p>Join one of our instructors online.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="row feature-content text-center feature-box">
+                                    <div class="text-center chooseypbox bgsky">
                                         <img className='imgmauto img70 pbb-30' src="classets/img/icon-in-person.svg" />
                                         <h4>In Person</h4>
                                         <p>Attend a classroom course.</p>
@@ -447,160 +495,249 @@ export default function Home() {
                 </div>
             </section>
 
-            <section class="why-us crucial-learning">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2 text-center title">
-                            <h2><span>WE ARE NOW CRUCIAL LEARNING</span></h2>
-                            <p>This change is a new beginning of our efforts to serve you with more ﬂexible, accessible, and inclusive learning options.</p>
-                            <a class="explore" href="/cruciallifechangingskills/browse-courses">Happy Exploring!</a>
+            <section className='darkbg patt-70 pabb-70'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center'>
+                            <Slider {...settings}>
+                                <div className='homesl'>
+                                    <h2 className='font50 cblack'>New GTD Course</h2>
+                                    <p className='font24 pabb-20'>We’ve updated everything from videos to learner guides to course content. <br></br>See what’s new in Getting Things Done.</p>
+                                    <a className='regularbtn' href='#'>Learn More</a>
+                                </div>
+                                <div className='homesl'>
+                                    <h2 className='font50 cblack'>Crucial Conversations for Healthcare</h2>
+                                    <p className='font24 pabb-20'>Crucial Conversations for Mastering Dialogue is now available as a healthcare course, featuring lessons, <br></br>scenarios, and exercises that address the challenges healthcare professionals face.</p>
+                                    <a className='regularbtn' href='#'>Learn More</a>
+                                </div>
+                                <div className='homesl'>
+                                    <h2 className='font50 cblack'>Global Impact</h2>
+                                    <p className='font24 pabb-20'>Our work has been translated into more than 20 languages, and people around the world learn <br></br>our skills through partners in 27 countries.</p>
+                                    <a className='regularbtn' href='#'>See Partners</a>
+                                </div>
+                                <div className='homesl'>
+                                    <h2 className='font50 cblack'>We Are Crucial Learning</h2>
+                                    <p className='font24 pabb-20'>Formerly VitalSmarts, our new brand and redesigned courses make <br></br>timeless skills more inclusive, flexible, and accessible.</p>
+                                    <a className='regularbtn' href='#'>Learn More</a>
+                                </div>
+                            </Slider>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="our-solutions">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2 text-center title">
-                            <h2><span>OUR SOLUTIONS</span></h2>
-                        </div>
-                        <div className='clearfix'></div>
-                    </div>
-                    <br></br>
-                    <div class="row shcols4">
-                        <div class="col-sm-4">
-                            <div className='ours'>
-                                <div className='innerbc'>
-                                    <img src="/classets/img/ccmd.jpg" />
-                                    <span className='forbgs'></span>
-                                </div>
-                                <div className='inerbtnccmd'>
-                                    <div className='row'>
-                                        <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn' href='#'>Assessment</a>
-                                        </div>
-                                        <div className='col lefts3'>
-                                            <a className='cc12btn' onClick={() => setModalOpen1(!modalOpen1)}>Download Prevview</a>
-                                        </div>
-                                    </div>
-                                </div>
+
+
+            <section className='blackbg fullbefor prelative'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-6'>
+                            <div className='blackboxl'>
+                                <h2 className='blh21'><i>Learning that Changes Behavior</i></h2>
+                                <h2 className='blh22'>167%</h2>
+                                <p>
+                                    Employees at MaineGeneral Health were 167% more likely to speak up and resolve problems with colleagues after learning the skills taught in Crucial Conversations<sup>®</sup> for Mastering Dialogue.
+                                </p>
                             </div>
                         </div>
+                        <div className='col-sm-6'>
+                            <div className='blackboxl'>
+                                <h2 className='blh22'>167%</h2>
+                                <p>
+                                    Employees at MaineGeneral Health were 167% more likely to speak up and resolve problems with colleagues after learning the skills taught in Crucial Conversations<sup>®</sup> for Mastering Dialogue.
+                                </p>
+                                <h2 className='blh22'>$7,500</h2>
+                                <p>
+                                    Our research shows that every successful Crucial Conversation could save the organization an average of $7,500.
+                                </p>
 
-                        <div class="col-sm-4">
-                            <div className='ours'>
-                                <div className='innerbc'>
-                                    <img src="/classets/img/gtd.jpg" />
-                                    <span className='forbgs'></span>
-                                </div>
-                                <div className='inerbtnccmd'>
-                                    <div className='row'>
-                                        <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn cc12btntgtd' href='/cruciallifechangingskills/assessment/gtd-assessment'>Assessment</a>
-                                        </div>
-                                        <div className='col lefts3'>
-                                            <a className='cc12btn cc12btntgtd' onClick={() => setModalOpen2(!modalOpen2)}>Download Prevview</a>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-
-                        <div class="col-sm-4">
-                            <div className='ours'>
-                                <div className='innerbc'>
-                                    <img src="/classets/img/cc.jpg" />
-                                    <span className='forbgs'></span>
-                                </div>
-                                <div className='inerbtnccmd'>
-                                    <div className='row'>
-                                        <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn' href='/cruciallifechangingskills/assessment/what-would-you-do-assessment'>Assessment</a>
-                                        </div>
-                                        <div className='col lefts3'>
-                                            <a className='cc12btn' onClick={() => setModalOpen3(!modalOpen3)}>Download Prevview</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4">
-                            <div className='ours'>
-                                <div className='innerbc'>
-                                    <img src="/classets/img/tpoh.jpg" />
-                                    <span className='forbgs'></span>
-                                </div>
-                                <div className='inerbtnccmd'>
-                                    <div className='row'>
-                                        <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn cc12btntpoh' href='#'>Assessment</a>
-                                        </div>
-                                        <div className='col lefts3'>
-                                            <a className='cc12btn cc12btntpoh' onClick={() => setModalOpen4(!modalOpen4)}>Download Prevview</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4">
-                            <div className='ours'>
-                                <div className='innerbc'>
-                                    <img src="/classets/img/inc.jpg" />
-                                    <span className='forbgs'></span>
-                                </div>
-                                <div className='inerbtnccmd'>
-                                    <div className='row'>
-                                        <div className='col rights3'>
-                                            <a target="_blank" className='cc12btn cc12btninc' href='/cruciallifechangingskills/assessment/influencer-assessment'>Assessment</a>
-                                        </div>
-                                        <div className='col lefts3'>
-                                            <a className='cc12btn cc12btninc' onClick={() => setModalOpen5(!modalOpen5)}>Download Prevview</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
                     </div>
                 </div>
             </section>
 
-            <section class="contact-us">
+            <section className='darkbg patt-70 pabb-70'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center'>
+                            <Slider {...settings}>
+                                <div className='homesl'>
+                                    <h2 className='font50 cblack'>New GTD Course</h2>
+                                    <p className='font24 pabb-20'>We’ve updated everything from videos to learner guides to course content. <br></br>See what’s new in Getting Things Done.</p>
+                                    <a className='regularbtn' href='#'>Learn More</a>
+                                </div>
+                                <div className='homesl'>
+                                    <h2 className='font50 cblack'>Crucial Conversations for Healthcare</h2>
+                                    <p className='font24 pabb-20'>Crucial Conversations for Mastering Dialogue is now available as a healthcare course, featuring lessons, <br></br>scenarios, and exercises that address the challenges healthcare professionals face.</p>
+                                    <a className='regularbtn' href='#'>Learn More</a>
+                                </div>
+                                <div className='homesl'>
+                                    <h2 className='font50 cblack'>Global Impact</h2>
+                                    <p className='font24 pabb-20'>Our work has been translated into more than 20 languages, and people around the world learn <br></br>our skills through partners in 27 countries.</p>
+                                    <a className='regularbtn' href='#'>See Partners</a>
+                                </div>
+                                <div className='homesl'>
+                                    <h2 className='font50 cblack'>We Are Crucial Learning</h2>
+                                    <p className='font24 pabb-20'>Formerly VitalSmarts, our new brand and redesigned courses make <br></br>timeless skills more inclusive, flexible, and accessible.</p>
+                                    <a className='regularbtn' href='#'>Learn More</a>
+                                </div>
+                            </Slider>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='mthemebg custompad'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center'>
+                            <h2 className='font50 cwhite pabb-50'>START YOUR JOURNEY</h2>
+                            <a className='regularbtnwhite' href='#'>Browse Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='blackbg prelative pabb-100 patt-80 courseal'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-sm-12 text-center'>
+                            <h2 className='font50 cwhite pabb-50'>Featured Courses</h2>
+                            <Slider {...Coursec}>
+
+                                <div className='ours'>
+                                    <div className='innerbc'>
+                                        <img src="/classets/img/ccmd.jpg" />
+                                        <span className='forbgs'></span>
+                                    </div>
+                                    <div className='inerbtnccmd'>
+                                        <div className='row'>
+                                            <div className='col rights3'>
+                                                <a target="_blank" className='cc12btn' href='#'>Assessment</a>
+                                            </div>
+                                            <div className='col lefts3'>
+                                                <a className='cc12btn' onClick={() => setModalOpen1(!modalOpen1)}>Download Prevview</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='ours'>
+                                    <div className='innerbc'>
+                                        <img src="/classets/img/gtd.jpg" />
+                                        <span className='forbgs'></span>
+                                    </div>
+                                    <div className='inerbtnccmd'>
+                                        <div className='row'>
+                                            <div className='col rights3'>
+                                                <a target="_blank" className='cc12btn cc12btntgtd' href='/cruciallifechangingskills/assessment/gtd-assessment'>Assessment</a>
+                                            </div>
+                                            <div className='col lefts3'>
+                                                <a className='cc12btn cc12btntgtd' onClick={() => setModalOpen2(!modalOpen2)}>Download Prevview</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='ours'>
+                                    <div className='innerbc'>
+                                        <img src="/classets/img/cc.jpg" />
+                                        <span className='forbgs'></span>
+                                    </div>
+                                    <div className='inerbtnccmd'>
+                                        <div className='row'>
+                                            <div className='col rights3'>
+                                                <a target="_blank" className='cc12btn' href='/cruciallifechangingskills/assessment/what-would-you-do-assessment'>Assessment</a>
+                                            </div>
+                                            <div className='col lefts3'>
+                                                <a className='cc12btn' onClick={() => setModalOpen3(!modalOpen3)}>Download Prevview</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='ours'>
+                                    <div className='innerbc'>
+                                        <img src="/classets/img/tpoh.jpg" />
+                                        <span className='forbgs'></span>
+                                    </div>
+                                    <div className='inerbtnccmd'>
+                                        <div className='row'>
+                                            <div className='col rights3'>
+                                                <a target="_blank" className='cc12btn cc12btntpoh' href='#'>Assessment</a>
+                                            </div>
+                                            <div className='col lefts3'>
+                                                <a className='cc12btn cc12btntpoh' onClick={() => setModalOpen4(!modalOpen4)}>Download Prevview</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='ours'>
+                                    <div className='innerbc'>
+                                        <img src="/classets/img/inc.jpg" />
+                                        <span className='forbgs'></span>
+                                    </div>
+                                    <div className='inerbtnccmd'>
+                                        <div className='row'>
+                                            <div className='col rights3'>
+                                                <a target="_blank" className='cc12btn cc12btninc' href='/cruciallifechangingskills/assessment/influencer-assessment'>Assessment</a>
+                                            </div>
+                                            <div className='col lefts3'>
+                                                <a className='cc12btn cc12btninc' onClick={() => setModalOpen5(!modalOpen5)}>Download Prevview</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </Slider>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+            <section class="darkbg patt-60 pabb-60">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-7 form-area">
-                                    <form id='contactForm' class="row" onSubmit={HomeForm}>
-                                        <div class="col-md-6">
-                                            <input type="text" name='name' class="form-control" placeholder="Your Name*" required />
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="email" name="email" class="form-control" placeholder="Your Email*" required />
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" name="phone" class="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" name='subject' class="form-control" placeholder="Subject*" required />
-                                        </div>
-                                        <div class="col-md-12">
-                                            <textarea name='message' placeholder="Your Message" rows="5"></textarea>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <button id="submitbuttonform" class="primary-btn submit" type='submit'>Submit</button>
-                                        </div>
-                                        <p id="showlabel" style={{ display: "none" }}></p>
-                                    </form>
+                    <div class="col-md-1"></div>
+                        <div class="col-md-5">
+                        <h2 className='font50 cblack pabb-10'>GET STARTED</h2>
+                        <p className='font20 pabb-20 cblack'>
+                        Ready to bring our courses to your organization? <br></br>Complete the form to speak with a client advisor.
+                        </p>
+                        </div>                        
+                        <div class="col-md-5 newclf">
+                            <form id='contactForm' class="row" onSubmit={HomeForm}>
+                                <div class="col-md-6">
+                                    <input type="text" name='name' class="form-control" placeholder="First Name*" required />
                                 </div>
-                                <div class="col-md-5 contact-image">
-                                    <img src="/classets/img/contact-1.png" />
+
+                                <div class="col-md-6">
+                                    <input type="text" name='name' class="form-control" placeholder="Last Name*" required />
                                 </div>
-                            </div>
+                                <div class="col-md-12">
+                                    <input type="email" name="email" class="form-control" placeholder="Work Email*" required />
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" name="phone" class="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" name='company' class="form-control" placeholder="Company*" required />
+                                </div>
+                                <div class="col-md-12">
+                                <input type="text" name='designation' class="form-control" placeholder="Designation" required/>
+                                </div>
+                                <div class="col-md-12">
+                                    <button id="submitbuttonform" class="formbtnall" type='submit'>Start the Conversation</button>
+                                </div>
+                                <p id="showlabel" style={{ display: "none" }}></p>
+                            </form>
                         </div>
                     </div>
                 </div>

@@ -32,7 +32,7 @@ jQuery(document).ready(function() {
 			headerTransparentLgNosticky.addClass('header-transparent-on');
 			headerOpacityLgNosticky.addClass('header-opacity-on');
 			viewportLgBody.css("margin-top", navikHeaderHeight);
-			viewportLg.css("margin-top", -navikHeaderHeight);
+			viewportLg.css("margin-top", -0);
 		} else {
 			navikHeader.removeClass('sticky');
 			viewportLgLogo.attr('src', logoSrc);
@@ -159,7 +159,7 @@ jQuery(document).ready(function() {
 		$('.dropdown_menu a').append('<span></span>');
 
 		/* ========== Added header shadow ========== */
-		headerShadow.append('<div class="header-shadow-wrapper"></div>');
+		// headerShadow.append('<div class="header-shadow-wrapper"></div>');
 
 		/* ========== Sticky on scroll ========== */
 		$(window).on("scroll", function() {

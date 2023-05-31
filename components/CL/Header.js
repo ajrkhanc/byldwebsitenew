@@ -7,11 +7,9 @@ export default function Header() {
         <>
             <div class="navik-header header-shadow">
                 <div class="container-fluid">
-
                     <div class="navik-header-container">
-
                         <div class="logo col-md-4 col-8">
-                            <a href="/cruciallifechangingskills"><img src="/classets/img/cruciallifechangingskills-logo.svg" alt="logo" /></a>
+                            <a href="/cruciallifechangingskills"><img src="/classets/img/logo-site-full-white.svg" alt="logo" /></a>
                         </div>
 
                         <div class="burger-menu">

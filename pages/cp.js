@@ -86,9 +86,6 @@ export default function JoinOurPartnerNetworkLP() {
 
     }
 
-
-
-
     const whitp1 = async event => {
         const coursename = 'White Paper';
         event.preventDefault()
