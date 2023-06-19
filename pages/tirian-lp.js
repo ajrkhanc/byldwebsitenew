@@ -56,7 +56,6 @@ export default function TirianIndex(){
                 </div>
             </div>
             </div>
-
             <div className="rs-about style2 pt-50 pb-20 aboutsection1" id='Reserve'>
                 <div className="container">
                     <div className="row">
